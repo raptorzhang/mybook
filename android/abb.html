@@ -1,0 +1,1540 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>ADB · 学习笔记</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="RaptorZhang">
+        
+        
+    
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-lou/lou.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+         
+
+<div class="book">
+  <div class="header-inner">
+    <!-- LOGO -->
+    <div class="logo"></div>
+    <span class="title"></span>
+
+    <!-- Search -->
+    
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+
+    <!-- Nav -->
+    <ul class="header-nav">
+      
+    </ul>
+  </div>
+
+  <div class="book-summary">
+    <div class="book-summary-title">文档目录</div>
+     
+    <nav role="navigation">
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    首页
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="../php/">
+            
+                <a href="../php/">
+            
+                    
+                    PHP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="../docker/">
+            
+                <a href="../docker/">
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="../mysql/">
+            
+                <a href="../mysql/">
+            
+                    
+                    Mysql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" data-path="../git/">
+            
+                <a href="../git/">
+            
+                    
+                    Git
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.4.1" data-path="../git/start.html">
+            
+                <a href="../git/start.html">
+            
+                    
+                    Git上手操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.2" data-path="../git/fenzhi.html">
+            
+                <a href="../git/fenzhi.html">
+            
+                    
+                    Git分支
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.3" data-path="../git/github.html">
+            
+                <a href="../git/github.html">
+            
+                    
+                    GitHub
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.4" data-path="../git/ide.html">
+            
+                <a href="../git/ide.html">
+            
+                    
+                    IDE的配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    安卓
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.1.5.1" data-path="abb.html">
+            
+                <a href="abb.html">
+            
+                    
+                    ADB
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+</nav>
+     
+  </div>
+
+  <!-- Content nav -->
+  <div class="book-anchor">
+    <div class="book-anchor-title"></div>
+
+    <div class="book-anchor-body"></div>
+  </div>
+
+  <div class="book-body">
+    
+    <div class="body-inner">
+       
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >ADB</a>
+    </h1>
+</div>
+
+
+
+      <div class="page-wrapper" tabindex="-1" role="main">
+        <div class="page-inner">
+          
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+          <section class="normal markdown-section">
+             <p><strong>adb&#x662F;&#x4EC0;&#x4E48;\?</strong></p>
+<p>adb&#x7684;&#x5168;&#x79F0;&#x4E3A;Android Debug Bridge&#x3002;&#x901A;&#x8FC7;adb&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5728;Eclipse&#x4E2D;&#x65B9;&#x9762;&#x901A;&#x8FC7;DDMS&#x6765;&#x8C03;&#x8BD5;Android&#x7A0B;&#x5E8F;&#xFF0C;&#x8BF4;&#x767D;&#x4E86;&#x5C31;&#x662F;debug&#x5DE5;&#x5177;&#xFF0C;&#x9ED8;&#x8BA4;&#x7AEF;&#x53E3;&#x4E3A;5037&#x3002;</p>
+<p><strong>adb&#x6709;&#x4EC0;&#x4E48;&#x7528;\?</strong></p>
+<p>&#x501F;&#x52A9;adb&#x5DE5;&#x5177;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x7BA1;&#x7406;&#x8BBE;&#x5907;&#x6216;&#x624B;&#x673A;&#x6A21;&#x62DF;&#x5668;&#x7684;&#x72B6;&#x6001;&#x3002;&#x8FD8;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x5F88;&#x591A;&#x624B;&#x673A;&#x64CD;&#x4F5C;&#xFF0C;&#x5982;&#x5B89;&#x88C5;&#x8F6F;&#x4EF6;&#x3001;&#x7CFB;&#x7EDF;&#x5347;&#x7EA7;&#x3001;&#x8FD0;&#x884C;shell&#x547D;&#x4EE4;&#x7B49;&#x7B49;&#x3002;&#x5176;&#x5B9E;&#x7B80;&#x800C;&#x8A00;&#x8BF4;&#xFF0C;adb&#x5C31;&#x662F;&#x8FDE;&#x63A5;Android&#x624B;&#x673A;&#x4E0E;PC&#x7AEF;&#x7684;&#x6865;&#x6881;&#xFF0C;&#x53EF;&#x4EE5;&#x8BA9;&#x7528;&#x6237;&#x5728;&#x7535;&#x8111;&#x4E0A;&#x5BF9;&#x624B;&#x673A;&#x8FDB;&#x884C;&#x5168;&#x9762;&#x7684;&#x64CD;&#x4F5C;!</p>
+<p><strong>&#x73AF;&#x5883;&#x642D;&#x5EFA;</strong></p>
+<p>&#x672C;&#x6587;&#x4EE5;windows&#x4E3A;&#x4F8B;&#xFF1A;</p>
+<p>adb &#x7684;&#x5B89;&#x88C5;&#x53EF;&#x4EE5;&#x6709;&#x591A;&#x79CD;&#x65B9;&#x5F0F;&#xFF1A;</p>
+<ul>
+<li>&#x76F4;&#x63A5;&#x4E0B;&#x8F7D;adb&#x76F8;&#x5173;&#x6587;&#x4EF6;&#x5230;&#x672C;&#x5730;&#x3002;</li>
+<li>&#x901A;<strong>SDK &#x5E73;&#x53F0;&#x5DE5;&#x5177;</strong>(<a href="https://developer.android.com/studio/releases/platform-tools\?hl=zh\_cn" target="_blank">https://developer.android.com/studio/releases/platform-tools\?hl=zh_cn</a>)&#x4E0B;&#x8F7D; SDK Platform Tools&#x3002;</li>
+<li>&#x4E0B;&#x8F7D;Android &#x7684;SDk(&#x6587;&#x4EF6;&#x8F83;&#x5927;&#xFF0C;&#x5305;&#x542B;&#x4E0A;&#x8FF0;&#x4E24;&#x4E2A;&#x6587;&#x4EF6;)&#x3002;</li>
+</ul>
+<p>&#x8FD9;&#x91CC;&#x4EE5;&#x4E0B;&#x8F7D; SDK Platform Tools &#x4E3A;&#x4F8B;&#xFF1A;</p>
+<ul>
+<li>&#x8BBF;&#x95EE;SDK&#x5E73;&#x53F0;&#x5DE5;&#x5177;(<a href="https://developer.android.com/studio/releases/platform-tools\?hl=zh\_cn" target="_blank">https://developer.android.com/studio/releases/platform-tools\?hl=zh_cn</a>)&#xFF0C; &#x5728;&quot;&#x4E0B;&#x8F7D;&quot;&#x4E00;&#x680F;&#x4E2D;&#x9009;&#x62E9; &quot;&#x4E0B;&#x8F7D;&#x9002;&#x7528;&#x4E8E;Windows&#x7684;SDK Platform-Tools&quot;&#xFF0C;&#x70B9;&#x51FB;&#x76F4;&#x63A5;&#x4E0B;&#x8F7D;&#x5373;&#x53EF;&#x3002;</li>
+<li>&#x89E3;&#x538B;&#x5DF2;&#x4E0B;&#x8F7D;&#x7684;SDK Platform-Tools&#x6587;&#x4EF6;&#x5939;&#xFF0C;&#x8DEF;&#x5F84;&#x6700;&#x597D;&#x4E0D;&#x8981;&#x5B58;&#x5728;&#x4E2D;&#x6587;&#xFF0C;&#x4EE5;&#x514D;&#x51FA;&#x73B0;&#x4E0D;&#x5FC5;&#x8981;&#x7684;&#x9EBB;&#x70E6;&#x3002;</li>
+<li>&#x6DFB;&#x52A0;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#xFF1A;&#x627E;&#x5230; &#x201C;&#x6B64;&#x7535;&#x8111;&#x201D;&#xFF0C;&#x53F3;&#x952E;&#x9009;&#x62E9;&#x5C5E;&#x6027;--&gt;&#x9AD8;&#x7EA7;&#x7CFB;&#x7EDF;&#x8BBE;&#x7F6E;--&gt;&#x73AF;&#x5883;&#x53D8;&#x91CF;,&#x5728;&#x7CFB;&#x7EDF;&#x53D8;&#x91CF;&#x4E2D;&#x627E;&#x5230; &#x201C;Path&#x201D; &#x9879;&#xFF0C;&#x9009;&#x4E2D;&#x5E76;&#x70B9;&#x51FB;&#x201C;&#x7F16;&#x8F91;&#x201D;&#xFF0C;&#x5C06;&#x201C;SDK Platform-Tools&#x201D;&#x6587;&#x4EF6;&#x5939;&#x7684;&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;&#x6DFB;&#x52A0;&#x5230;Path&#x4E2D;&#xFF0C;&#x4F9D;&#x6B21;&#x70B9;&#x51FB;&#x786E;&#x5B9A;&#x5373;&#x53EF;&#x3002;</li>
+<li>&#x6309;&#x4F4F; win+R &#x952E;&#x6253;&#x5F00;cmd&#x7A97;&#x53E3;&#xFF0C;&#x8F93;&#x5165;&quot;adb version&quot;,&#x5C55;&#x793A;adb&#x7248;&#x672C;&#x4FE1;&#x606F;&#x5373;&#x8868;&#x793A;&#x5B89;&#x88C5;&#x6210;&#x529F;&#x3002;</li>
+</ul>
+<p>&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;</p>
+<p><strong>&#x57FA;&#x672C;&#x7528;&#x6CD5;</strong></p>
+<p><strong>&#x542F;&#x52A8;/&#x505C;&#x6B62;:</strong></p>
+<p>&#x542F;&#x52A8; adb server &#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-text">adb start-server
+</code></pre>
+<p>&#x505C;&#x6B62; adb server &#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-text">adb kill-server
+</code></pre>
+<p><strong>&#x67E5;&#x770B; adb &#x7248;&#x672C;&#x547D;&#x4EE4;</strong>&#xFF1A;</p>
+<pre><code class="lang-text">adb version
+</code></pre>
+<p>&#x793A;&#x4F8B;&#x8F93;&#x51FA;&#xFF1A;</p>
+<pre><code class="lang-text">Android Debug Bridge version 1.0.41
+</code></pre>
+<p>&#x6307;&#x5B9A; adb server &#x7684;&#x7F51;&#x7EDC;&#x7AEF;&#x53E3;&#xFF1A;</p>
+<pre><code class="lang-text">adb -P &lt;port&gt; start-server
+</code></pre>
+<p>&#x9ED8;&#x8BA4;&#x7AEF;&#x53E3;&#x4E3A; 5037&#x3002;</p>
+<p><strong>&#x8BBE;&#x5907;&#x8FDE;&#x63A5;&#x7BA1;&#x7406;</strong></p>
+<p>&#x67E5;&#x8BE2;&#x5DF2;&#x8FDE;&#x63A5;&#x8BBE;&#x5907;/&#x6A21;&#x62DF;&#x5668;:</p>
+<pre><code class="lang-text">adb devices
+</code></pre>
+<p>&#x8F93;&#x51FA;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">List of devices attached
+APH7N19529019277        device
+</code></pre>
+<ul>
+<li>&#x8F93;&#x51FA;&#x683C;&#x5F0F;&#x4E3A; [serialNumber] [state]&#xFF0C;serialNumber &#x5373;SN&#xFF0C;state &#x6709;&#x5982;&#x4E0B;&#x51E0;&#x79CD;&#xFF1A;</li>
+<li>`offline` &#x2014;&#x2014; &#x8868;&#x793A;&#x8BBE;&#x5907;&#x672A;&#x8FDE;&#x63A5;&#x6210;&#x529F;&#x6216;&#x65E0;&#x54CD;&#x5E94;&#x3002;</li>
+<li>`device` &#x2014;&#x2014; &#x8BBE;&#x5907;&#x5DF2;&#x8FDE;&#x63A5;&#x3002;&#x6CE8;&#x610F;&#x8FD9;&#x4E2A;&#x72B6;&#x6001;&#x5E76;&#x4E0D;&#x80FD;&#x6807;&#x8BC6; Android &#x7CFB;&#x7EDF;&#x5DF2;&#x7ECF;&#x5B8C;&#x5168;&#x542F;&#x52A8;&#x548C;&#x53EF;&#x64CD;&#x4F5C;&#xFF0C;&#x5728;&#x8BBE;&#x5907;&#x542F;&#x52A8;&#x8FC7;&#x7A0B;&#x4E2D;&#x8BBE;&#x5907;&#x5B9E;&#x4F8B;&#x5C31;&#x53EF;&#x8FDE;&#x63A5;&#x5230; adb&#xFF0C;&#x4F46;&#x542F;&#x52A8;&#x5B8C;&#x6BD5;&#x540E;&#x7CFB;&#x7EDF;&#x624D;&#x5904;&#x4E8E;&#x53EF;&#x64CD;&#x4F5C;&#x72B6;&#x6001;&#x3002;</li>
+<li>`no device` &#x2014;&#x2014; &#x6CA1;&#x6709;&#x8BBE;&#x5907;/&#x6A21;&#x62DF;&#x5668;&#x8FDE;&#x63A5;&#x3002;</li>
+</ul>
+<p>&#x4EE5;&#x4E0A;&#x8F93;&#x51FA;&#x663E;&#x793A;&#x5F53;&#x524D;&#x5DF2;&#x7ECF;&#x8FDE;&#x63A5;&#x4E86;&#x4E09;&#x53F0;&#x8BBE;&#x5907;/&#x6A21;&#x62DF;&#x5668;</p>
+<p>&#x5E38;&#x89C1;&#x5F02;&#x5E38;&#x8F93;&#x51FA;&#xFF1A;</p>
+<ul>
+<li>&#x6CA1;&#x6709;&#x8BBE;&#x5907;/&#x6A21;&#x62DF;&#x5668;&#x8FDE;&#x63A5;&#x6210;&#x529F;&#x3002;</li>
+</ul>
+<pre><code class="lang-text">List of devices attached
+</code></pre>
+<ul>
+<li>&#x8BBE;&#x5907;/&#x6A21;&#x62DF;&#x5668;&#x672A;&#x8FDE;&#x63A5;&#x5230; adb &#x6216;&#x65E0;&#x54CD;&#x5E94;&#x3002;</li>
+</ul>
+<pre><code class="lang-text">List of devices attached
+cf264b8f offline
+</code></pre>
+<p><strong>USB &#x8FDE;&#x63A5;</strong></p>
+<p>&#x901A;&#x8FC7; USB &#x8FDE;&#x63A5;&#x6765;&#x6B63;&#x5E38;&#x4F7F;&#x7528; adb &#x9700;&#x8981;&#x4FDD;&#x8BC1;&#x51E0;&#x70B9;&#xFF1A;</p>
+<ul>
+<li>&#x786C;&#x4EF6;&#x72B6;&#x6001;&#x6B63;&#x5E38;&#x3002;</li>
+<li>&#x5305;&#x62EC; Android &#x8BBE;&#x5907;&#x5904;&#x4E8E;&#x6B63;&#x5E38;&#x5F00;&#x673A;&#x72B6;&#x6001;&#xFF0C;USB &#x8FDE;&#x63A5;&#x7EBF;&#x548C;&#x5404;&#x79CD;&#x63A5;&#x53E3;&#x5B8C;&#x597D;&#x3002;</li>
+<li>Android &#x8BBE;&#x5907;&#x7684;&#x5F00;&#x53D1;&#x8005;&#x9009;&#x9879;&#x548C; USB &#x8C03;&#x8BD5;&#x6A21;&#x5F0F;&#x5DF2;&#x5F00;&#x542F;&#x3002;</li>
+<li>&#x53EF;&#x4EE5;&#x5230;&#x300C;&#x8BBE;&#x7F6E;&#x300D;-&#x300C;&#x5F00;&#x53D1;&#x8005;&#x9009;&#x9879;&#x300D;-&#x300C;Android &#x8C03;&#x8BD5;&#x300D;&#x67E5;&#x770B;&#x3002;</li>
+<li>&#x5982;&#x679C;&#x5728;&#x8BBE;&#x7F6E;&#x91CC;&#x627E;&#x4E0D;&#x5230;&#x5F00;&#x53D1;&#x8005;&#x9009;&#x9879;&#xFF0C;&#x90A3;&#x9700;&#x8981;&#x901A;&#x8FC7;&#x4E00;&#x4E2A;&#x5F69;&#x86CB;&#x6765;&#x8BA9;&#x5B83;&#x663E;&#x793A;&#x51FA;&#x6765;&#xFF1A;&#x5728;&#x300C;&#x8BBE;&#x7F6E;&#x300D;-&#x300C;&#x5173;&#x4E8E;&#x624B;&#x673A;&#x300D;&#x8FDE;&#x7EED;&#x70B9;&#x51FB;&#x300C;&#x7248;&#x672C;&#x53F7;&#x300D;7 &#x6B21;&#x3002;</li>
+<li>&#x8BBE;&#x5907;&#x9A71;&#x52A8;&#x72B6;&#x6001;&#x6B63;&#x5E38;&#x3002;</li>
+<li>&#x8FD9;&#x4E00;&#x70B9;&#x8C8C;&#x4F3C;&#x5728; Linux &#x548C; Mac OS X &#x4E0B;&#x4E0D;&#x7528;&#x64CD;&#x5FC3;&#xFF0C;&#x5728; Windows &#x4E0B;&#x6709;&#x53EF;&#x80FD;&#x9047;&#x5230;&#x9700;&#x8981;&#x5B89;&#x88C5;&#x9A71;&#x52A8;&#x7684;&#x60C5;&#x51B5;&#xFF0C;&#x786E;&#x8BA4;&#x8FD9;&#x4E00;&#x70B9;&#x53EF;&#x4EE5;&#x53F3;&#x952E;&#x300C;&#x8BA1;&#x7B97;&#x673A;&#x300D;-&#x300C;&#x5C5E;&#x6027;&#x300D;&#xFF0C;</li>
+<li>&#x5230;&#x300C;&#x8BBE;&#x5907;&#x7BA1;&#x7406;&#x5668;&#x300D;&#x91CC;&#x67E5;&#x770B;&#x76F8;&#x5173;&#x8BBE;&#x5907;&#x4E0A;&#x662F;&#x5426;&#x6709;&#x9EC4;&#x8272;&#x611F;&#x53F9;&#x53F7;&#x6216;&#x95EE;&#x53F7;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x5C31;&#x8BF4;&#x660E;&#x9A71;&#x52A8;&#x72B6;&#x6001;&#x5DF2;&#x7ECF;&#x597D;&#x4E86;&#x3002;&#x5426;&#x5219;&#x53EF;&#x4EE5;&#x4E0B;&#x8F7D;&#x4E00;&#x4E2A;&#x624B;&#x673A;&#x52A9;&#x624B;&#x7C7B;&#x7A0B;&#x5E8F;&#x6765;&#x5B89;&#x88C5;&#x9A71;&#x52A8;&#x5148;&#x3002;</li>
+</ul>
+<ul>
+<li>&#x901A;&#x8FC7; USB &#x7EBF;&#x8FDE;&#x63A5;&#x597D;&#x7535;&#x8111;&#x548C;&#x8BBE;&#x5907;&#x540E;&#x786E;&#x8BA4;&#x72B6;&#x6001;&#x3002;</li>
+</ul>
+<pre><code class="lang-text">adb devices
+</code></pre>
+<p>&#x5982;&#x679C;&#x80FD;&#x770B;&#x5230;</p>
+<pre><code class="lang-text">xxxxxx device
+</code></pre>
+<p>&#x8BF4;&#x660E;&#x8FDE;&#x63A5;&#x6210;&#x529F;&#x3002;</p>
+<p><strong>&#x5E94;&#x7528;&#x7BA1;&#x7406;</strong></p>
+<p>&#x67E5;&#x770B;&#x5E94;&#x7528;&#x5217;&#x8868;</p>
+<pre><code class="lang-text">adb shell pm list packages [-f] [-d] [-e] [-s] [-3] [-i] [-u] [--user USER_ID] [FILTER]
+</code></pre>
+<p>&#x5373;&#x5728; `adb shell pm list packages` &#x7684;&#x57FA;&#x7840;&#x4E0A;&#x53EF;&#x4EE5;&#x52A0;&#x4E00;&#x4E9B;&#x53C2;&#x6570;&#x8FDB;&#x884C;&#x8FC7;&#x6EE4;&#x67E5;&#x770B;&#x4E0D;&#x540C;&#x7684;&#x5217;&#x8868;&#xFF0C;&#x652F;&#x6301;&#x7684;&#x8FC7;&#x6EE4;&#x53C2;&#x6570;&#x5982;&#x4E0B;&#xFF1A;</p>
+<table data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal"><tbody><tr><td>&#x53C2;&#x6570;&#x200D;</td><td>&#x663E;&#x793A;&#x5217;&#x8868;</td></tr><tr><td>&#x65E0;</td><td>&#x6240;&#x6709;&#x5E94;&#x7528;</td></tr><tr><td>-f</td><td>&#x663E;&#x793A;&#x5E94;&#x7528;&#x5173;&#x8054;&#x7684; apk &#x6587;&#x4EF6;&#x53C2;&#x6570;</td></tr><tr><td>-d</td><td>&#x53EA;&#x663E;&#x793A; disabled &#x7684;&#x5E94;&#x7528;</td></tr><tr><td>-e</td><td>&#x53EA;&#x663E;&#x793A; enabled &#x7684;&#x5E94;&#x7528;</td></tr><tr><td>-s</td><td>&#x53EA;&#x663E;&#x793A;&#x7CFB;&#x7EDF;&#x5E94;&#x7528;</td></tr><tr><td>-3</td><td>&#x53EA;&#x663E;&#x793A;&#x7B2C;&#x4E09;&#x65B9;&#x5E94;&#x7528;</td></tr><tr><td>-i</td><td>&#x663E;&#x793A;&#x5E94;&#x7528;&#x7684; installer</td></tr><tr><td>-u</td><td>&#x5305;&#x542B;&#x5DF2;&#x5378;&#x8F7D;&#x5E94;&#x7528;</td></tr><tr><td>`&lt;FILTER&gt;`</td><td>&#x5305;&#x540D;&#x5305;&#x542B; `&lt;FILTER&gt;` &#x5B57;&#x7B26;&#x4E32;</td></tr></tbody></table>
+
+<p>&#x6240;&#x6709;&#x5E94;&#x7528;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell pm list packages
+</code></pre>
+<p>&#x8F93;&#x51FA;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">package:com.taobao.taobao
+package:com.huawei.ca
+package:com.huawei.skytone
+package:com.huawei.assetsyncservice
+package:jnhyjt.tjgamsfwpt.tjga
+package:com.qq.qcloud
+package:com.huawei.aod
+package:com.huawei.def
+package:com.huawei.hbm
+package:com.huawei.hff
+package:com.huawei.ims
+package:com.huawei.lbs
+package:com.android.bluetooth
+package:com.xiaomi.hm.health
+package:com.ggyd.EarPro
+package:com.android.providers.contacts
+package:com.netease.cloudmusic
+package:tv.danmaku.bili
+package:com.android.captiveportallogin
+package:com.huawei.audioaccessorymanager
+package:com.huawei.hiaction
+package:com.huawei.trustedthingsauth
+package:com.eg.android.AlipayGphone
+package:com.huawei.android.airsharing
+package:cn.wps.moffice_eng
+package:com.huawei.rcsserviceapplication
+package:com.lucky.luckyclient
+package:com.huawei.ohos.famanager
+...
+</code></pre>
+<p>&#x67E5;&#x770B;&#x7CFB;&#x7EDF;&#x5E94;&#x7528;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell pm list packages -s
+</code></pre>
+<p>&#x67E5;&#x770B;&#x7B2C;&#x4E09;&#x65B9;&#x5E94;&#x7528;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell pm list packages -3
+</code></pre>
+<p>&#x5305;&#x540D;&#x5305;&#x542B;&#x67D0;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x5E94;&#x7528;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell pm list packages jingdong
+</code></pre>
+<p>&#x4F7F;&#x7528; grep &#x8FC7;&#x6EE4;(windows &#x6539;&#x7528; findstr)&#xFF1A;</p>
+<pre><code class="lang-text">adb shell pm list packages | grep jingdong
+</code></pre>
+<p>&#x5B89;&#x88C5; APK&#x547D;&#x4EE4;&#x683C;&#x5F0F;&#xFF1A;</p>
+<pre><code class="lang-text">adb install [-lrtsdg] &lt;path_to_apk&gt;
+</code></pre>
+<p>&#x53C2;&#x6570;&#xFF1A;</p>
+<p>`adb install` &#x540E;&#x9762;&#x53EF;&#x4EE5;&#x8DDF;&#x4E00;&#x4E9B;&#x53EF;&#x9009;&#x53C2;&#x6570;&#x6765;&#x63A7;&#x5236;&#x5B89;&#x88C5; APK &#x7684;&#x884C;&#x4E3A;&#xFF0C;&#x53EF;&#x7528;&#x53C2;&#x6570;&#x53CA;&#x542B;&#x4E49;&#x5982;&#x4E0B;&#xFF1A;</p>
+<table data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal"><tbody><tr><td>&#x53C2;&#x6570;</td><td>&#x542B;&#x4E49;</td></tr><tr><td>-l</td><td>&#x5C06;&#x5E94;&#x7528;&#x5B89;&#x88C5;&#x5230;&#x4FDD;&#x62A4;&#x76EE;&#x5F55; /mnt/asec</td></tr><tr><td>-r</td><td>&#x5141;&#x8BB8;&#x8986;&#x76D6;&#x5B89;&#x88C5;(&#x5E38;&#x7528;)</td></tr><tr><td>-t</td><td>&#x5141;&#x8BB8;&#x5B89;&#x88C5; AndroidManifest.xml &#x91CC; application &#x6307;&#x5B9A; `android:testOnly=&quot;true&quot;` &#x7684;&#x5E94;&#x7528;</td></tr><tr><td>-s</td><td>&#x5C06;&#x5E94;&#x7528;&#x5B89;&#x88C5;&#x5230; sdcard</td></tr><tr><td>-d</td><td>&#x5141;&#x8BB8;&#x964D;&#x7EA7;&#x8986;&#x76D6;&#x5B89;&#x88C5;(&#x5E38;&#x7528;)</td></tr><tr><td>-g</td><td>&#x6388;&#x4E88;&#x6240;&#x6709;&#x8FD0;&#x884C;&#x65F6;&#x6743;&#x9650;(&#x5E38;&#x7528;)</td></tr></tbody></table>
+
+<p>&#x8FD0;&#x884C;&#x540E;&#x5982;&#x679C;&#x89C1;&#x5230;&#x7C7B;&#x4F3C;&#x5982;&#x4E0B;&#x8F93;&#x51FA;&#xFF08;&#x72B6;&#x6001;&#x4E3A; `Success`&#xFF09;&#x4EE3;&#x8868;&#x5B89;&#x88C5;&#x6210;&#x529F;&#xFF1A;</p>
+<pre><code class="lang-text">[100%] /data/local/tmp/1.apk
+pkg: /data/local/tmp/1.apk
+Success
+</code></pre>
+<p>&#x800C;&#x5982;&#x679C;&#x72B6;&#x6001;&#x4E3A; `Failure` &#x5219;&#x8868;&#x793A;&#x5B89;&#x88C5;&#x5931;&#x8D25;&#xFF0C;&#x6BD4;&#x5982;&#xFF1A;</p>
+<pre><code class="lang-text">[100%] /data/local/tmp/map-20160831.apk
+        pkg: /data/local/tmp/map-20160831.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+</code></pre>
+<p>&#x5378;&#x8F7D;&#x5E94;&#x7528;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-text">adb uninstall [-k] &lt;packagename&gt;
+</code></pre>
+<p>`\<packagename>` &#x8868;&#x793A;&#x5E94;&#x7528;&#x7684;&#x5305;&#x540D;&#xFF0C;`-k` &#x53C2;&#x6570;&#x53EF;&#x9009;&#xFF0C;&#x8868;&#x793A;&#x5378;&#x8F7D;&#x5E94;&#x7528;&#x4F46;&#x4FDD;&#x7559;&#x6570;&#x636E;&#x548C;&#x7F13;&#x5B58;&#x76EE;&#x5F55;&#x3002;</packagename></p>
+<p>&#x547D;&#x4EE4;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">adb uninstall -k com.jingdong.app.mall
+</code></pre>
+<p>&#x8868;&#x793A;&#x5378;&#x8F7D; &#x4EAC;&#x4E1C;App&#x3002;</p>
+<p><strong>&#x6E05;&#x9664;&#x5E94;&#x7528;&#x6570;&#x636E;&#x4E0E;&#x7F13;</strong>&#x5B58;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell pm clear &lt;packagename&gt;
+</code></pre>
+<p>&#x547D;&#x4EE4;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell pm clear  com.jingdong.app.mall
+</code></pre>
+<p>&#x6E05;&#x9664; &#x4EAC;&#x4E1C;App&#x7684;&#x6570;&#x636E;&#x548C;&#x7F13;&#x5B58;&#x3002;</p>
+<p><strong>&#x67E5;&#x770B;&#x524D;&#x53F0; Activity&#x547D;&#x4EE4;&#xFF1A;</strong></p>
+<pre><code class="lang-text">adb shell dumpsys activity activities | grep mResumedActivity
+</code></pre>
+<p>&#x8F93;&#x51FA;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text"> mResumedActivity: ActivityRecord{c6b5f44 u0 com.tencent.mm/.ui.LauncherUI t36978}
+</code></pre>
+<p>&#x5176;&#x4E2D;&#x7684; `com.tencent.mm/.ui.LauncherUI` &#x5C31;&#x662F;&#x5F53;&#x524D;&#x5904;&#x4E8E;&#x524D;&#x53F0;&#x7684; Activity&#x3002;</p>
+<p>*&#x5728; Windows &#x53EF;&#x4EE5;&#x5C1D;&#x8BD5; `adb shell dumpsys activity activities | findstr mResumedActivity`</p>
+<p>&#x67E5;&#x770B;&#x6B63;&#x5728;&#x8FD0;&#x884C;&#x7684; Services&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell dumpsys activity services [&lt;packagename&gt;]
+</code></pre>
+<p><strong>&#x67E5;&#x770B;&#x5E94;&#x7528;&#x8BE6;&#x7EC6;&#x4FE1;&#x606F;&#x547D;&#x4EE4;&#xFF1A;</strong></p>
+<pre><code class="lang-text">adb shell dumpsys package &lt;packagename&gt;
+</code></pre>
+<p>&#x8F93;&#x51FA;&#x4E2D;&#x5305;&#x542B;&#x5F88;&#x591A;&#x4FE1;&#x606F;&#xFF0C;&#x5305;&#x62EC; Activity Resolver Table&#x3001;Registered ContentProviders&#x3001;&#x5305;&#x540D;&#x3001;userId&#x3001;&#x5B89;&#x88C5;&#x540E;&#x7684;&#x6587;&#x4EF6;&#x8D44;&#x6E90;&#x4EE3;&#x7801;&#x7B49;&#x8DEF;&#x5F84;&#x3001;&#x7248;&#x672C;&#x4FE1;&#x606F;&#x3001;&#x6743;&#x9650;&#x4FE1;&#x606F;&#x548C;&#x6388;&#x4E88;&#x72B6;&#x6001;&#x3001;&#x7B7E;&#x540D;&#x7248;&#x672C;&#x4FE1;&#x606F;&#x7B49;&#x3002;</p>
+<p>`\<packagename>` &#x8868;&#x793A;&#x5E94;&#x7528;&#x5305;&#x540D;&#x3002;</packagename></p>
+<p>&#x8F93;&#x51FA;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">Activity Resolver Table:
+  Full MIME Types:
+      vnd.android.cursor.item/vnd.com.tencent.mm.chatting.profile:
+        be9b872 com.tencent.mm/.plugin.account.ui.ContactsSyncUI filter be5cecc
+          Action: &quot;android.intent.action.VIEW&quot;
+          Action: &quot;com.tencent.mm.login.ACTION_LOGIN&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.login&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.profile&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.voip&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.voip.video&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.plugin.sns.timeline&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.phonenum&quot;
+      vnd.android.cursor.item/vnd.com.tencent.mm.plugin.sns.timeline:
+        be9b872 com.tencent.mm/.plugin.account.ui.ContactsSyncUI filter be5cecc
+          Action: &quot;android.intent.action.VIEW&quot;
+          Action: &quot;com.tencent.mm.login.ACTION_LOGIN&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.login&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.profile&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.voip&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.voip.video&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.plugin.sns.timeline&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.phonenum&quot;
+      application/*:
+        be5c38a com.tencent.mm/.ui.tools.ShareImgUI filter be2b1c3
+          Action: &quot;android.intent.action.SEND&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          Type: &quot;video&quot;
+          Type: &quot;text&quot;
+          Type: &quot;application&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        be5c398 com.tencent.mm/.ui.tools.AddFavoriteUI filter be2b1ea
+          Action: &quot;android.intent.action.SEND&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          Type: &quot;video&quot;
+          Type: &quot;text&quot;
+          Type: &quot;application&quot;
+          Type: &quot;audio&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+      vnd.android.cursor.item/vnd.com.tencent.mm.chatting.voip:
+        be9b872 com.tencent.mm/.plugin.account.ui.ContactsSyncUI filter be5cecc
+          Action: &quot;android.intent.action.VIEW&quot;
+          Action: &quot;com.tencent.mm.login.ACTION_LOGIN&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.login&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.profile&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.voip&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.voip.video&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.plugin.sns.timeline&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.phonenum&quot;
+      text/*:
+        be5c38a com.tencent.mm/.ui.tools.ShareImgUI filter be2b1c3
+          Action: &quot;android.intent.action.SEND&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          Type: &quot;video&quot;
+          Type: &quot;text&quot;
+          Type: &quot;application&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        be5c398 com.tencent.mm/.ui.tools.AddFavoriteUI filter be2b1ea
+          Action: &quot;android.intent.action.SEND&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          Type: &quot;video&quot;
+          Type: &quot;text&quot;
+          Type: &quot;application&quot;
+          Type: &quot;audio&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+      audio/*:
+        be5c398 com.tencent.mm/.ui.tools.AddFavoriteUI filter be2b1ea
+          Action: &quot;android.intent.action.SEND&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          Type: &quot;video&quot;
+          Type: &quot;text&quot;
+          Type: &quot;application&quot;
+          Type: &quot;audio&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+      vnd.android.cursor.item/vnd.com.tencent.mm.chatting.phonenum:
+        be9b872 com.tencent.mm/.plugin.account.ui.ContactsSyncUI filter be5cecc
+          Action: &quot;android.intent.action.VIEW&quot;
+          Action: &quot;com.tencent.mm.login.ACTION_LOGIN&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.login&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.profile&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.voip&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.voip.video&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.plugin.sns.timeline&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.phonenum&quot;
+      vnd.android.cursor.item/vnd.com.tencent.mm.chatting.voip.video:
+        be9b872 com.tencent.mm/.plugin.account.ui.ContactsSyncUI filter be5cecc
+          Action: &quot;android.intent.action.VIEW&quot;
+          Action: &quot;com.tencent.mm.login.ACTION_LOGIN&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.login&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.profile&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.voip&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.voip.video&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.plugin.sns.timeline&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.phonenum&quot;
+      vnd.android.cursor.item/vnd.com.tencent.mm.login:
+        be9b872 com.tencent.mm/.plugin.account.ui.ContactsSyncUI filter be5cecc
+          Action: &quot;android.intent.action.VIEW&quot;
+          Action: &quot;com.tencent.mm.login.ACTION_LOGIN&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.login&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.profile&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.voip&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.voip.video&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.plugin.sns.timeline&quot;
+          Type: &quot;vnd.android.cursor.item/vnd.com.tencent.mm.chatting.phonenum&quot;
+      video/*:
+        be5c38a com.tencent.mm/.ui.tools.ShareImgUI filter be2b1c3
+          Action: &quot;android.intent.action.SEND&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          Type: &quot;video&quot;
+          Type: &quot;text&quot;
+          Type: &quot;application&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        be5c391 com.tencent.mm/.ui.tools.ShareToStatusUI filter be2b1dd
+          Action: &quot;android.intent.action.SEND&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          Type: &quot;video&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        be5c398 com.tencent.mm/.ui.tools.AddFavoriteUI filter be2b1ea
+          Action: &quot;android.intent.action.SEND&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          Type: &quot;video&quot;
+          Type: &quot;text&quot;
+          Type: &quot;application&quot;
+          Type: &quot;audio&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+      */heic:
+        be5c3bb com.tencent.mm/.ui.tools.ShareScreenImgUI filter be5ce23
+          Action: &quot;android.intent.action.VIEW&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          Type: &quot;*/heic&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        be5c3c9 com.tencent.mm/.ui.tools.ShareScreenToTimeLineUI filter be5ce3d
+          Action: &quot;android.intent.action.VIEW&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          Type: &quot;*/heic&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+      image/*:
+        be5c38a com.tencent.mm/.ui.tools.ShareImgUI filter be2b1c3
+          Action: &quot;android.intent.action.SEND&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          Type: &quot;video&quot;
+          Type: &quot;text&quot;
+          Type: &quot;application&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        be5c38a com.tencent.mm/.ui.tools.ShareImgUI filter be2b1d0
+          Action: &quot;android.intent.action.SEND_MULTIPLE&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        be5c391 com.tencent.mm/.ui.tools.ShareToStatusUI filter be2b1dd
+          Action: &quot;android.intent.action.SEND&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          Type: &quot;video&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        be5c398 com.tencent.mm/.ui.tools.AddFavoriteUI filter be2b1ea
+          Action: &quot;android.intent.action.SEND&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          Type: &quot;video&quot;
+          Type: &quot;text&quot;
+          Type: &quot;application&quot;
+          Type: &quot;audio&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        be5c398 com.tencent.mm/.ui.tools.AddFavoriteUI filter be5ce09
+          Action: &quot;android.intent.action.SEND_MULTIPLE&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        be5c39f com.tencent.mm/.ui.tools.ShareToTimeLineUI filter be5ce16
+          Action: &quot;android.intent.action.SEND&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        be5c3bb com.tencent.mm/.ui.tools.ShareScreenImgUI filter be5ce23
+          Action: &quot;android.intent.action.VIEW&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          Type: &quot;*/heic&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        be5c3c9 com.tencent.mm/.ui.tools.ShareScreenToTimeLineUI filter be5ce3d
+          Action: &quot;android.intent.action.VIEW&quot;
+          Category: &quot;android.intent.category.DEFAULT&quot;
+          Type: &quot;image&quot;
+          Type: &quot;*/heic&quot;
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+</code></pre>
+<p><strong>&#x67E5;&#x770B;&#x5E94;&#x7528;&#x5B89;&#x88C5;&#x8DEF;&#x5F84;&#x547D;&#x4EE4;:</strong></p>
+<pre><code class="lang-text">adb shell pm path &lt;PACKAGE&gt;
+</code></pre>
+<p>&#x8F93;&#x51FA;&#x5E94;&#x7528;&#x5B89;&#x88C5;&#x8DEF;&#x5F84;</p>
+<p>&#x8F93;&#x51FA;&#x793A;&#x4F8B;:</p>
+<pre><code class="lang-text">adb shell pm path com.tencent.mm
+package:/data/app/com.tencent.mm-Khc5y5damU6A9MMQerHRgA==/base.apk
+</code></pre>
+<p><strong>&#x542F;&#x52A8;&#x5E94;&#x7528;/ &#x8C03;&#x8D77; Activity</strong></p>
+<ul>
+<li>&#x6307;&#x5B9A;Activity&#x540D;&#x79F0;&#x542F;&#x52A8;&#x547D;&#x4EE4;&#x683C;&#x5F0F;&#xFF1A;</li>
+</ul>
+<pre><code class="lang-text">adb shell am start [options] &lt;INTENT&gt;
+</code></pre>
+<p>&#x4F8B;&#x5982;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell am start -n com.tencent.mm/.ui.LauncherUI
+</code></pre>
+<p>&#x8868;&#x793A;&#x8C03;&#x8D77;&#x5FAE;&#x4FE1;&#x4E3B;&#x754C;&#x9762;&#x3002;</p>
+<p>&#x200D;</p>
+<p><strong>&#x5F3A;&#x5236;&#x505C;&#x6B62;&#x5E94;&#x7528;&#x547D;&#x4EE4;&#xFF1A;</strong></p>
+<pre><code class="lang-text">adb shell am force-stop &lt;packagename&gt;
+</code></pre>
+<p>&#x547D;&#x4EE4;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell am force-stop com.tencent.mm
+</code></pre>
+<p>&#x8868;&#x793A;&#x505C;&#x6B62; &#x5FAE;&#x4FE1;&#x7684;&#x4E00;&#x5207;&#x8FDB;&#x7A0B;&#x4E0E;&#x670D;&#x52A1;&#x3002;</p>
+<p><strong>&#x6587;&#x4EF6;&#x7BA1;&#x7406;</strong></p>
+<p>&#x590D;&#x5236;&#x8BBE;&#x5907;&#x91CC;&#x7684;&#x6587;&#x4EF6;&#x5230;&#x7535;&#x8111;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-text">adb pull &lt;&#x624B;&#x673A;&#x91CC;&#x7684;&#x6587;&#x4EF6;&#x8DEF;&#x5F84;&gt; [&#x7535;&#x8111;&#x4E0A;&#x7684;&#x5B58;&#x653E;&#x76EE;&#x5F55;]
+</code></pre>
+<p>&#x5176;&#x4E2D; `&#x7535;&#x8111;&#x4E0A;&#x7684;&#x76EE;&#x5F55;` &#x53C2;&#x6570;&#x53EF;&#x4EE5;&#x7701;&#x7565;&#xFF0C;&#x9ED8;&#x8BA4;&#x590D;&#x5236;&#x5230;&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x3002;</p>
+<p>&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">adb pull /sdcard/adn.mp4 ~/tmp/
+</code></pre>
+<p><strong>&#x590D;&#x5236;&#x7535;&#x8111;&#x91CC;&#x7684;&#x6587;&#x4EF6;&#x5230;&#x8BBE;&#x5907;&#x547D;&#x4EE4;&#xFF1A;</strong></p>
+<pre><code class="lang-text">adb push &lt;&#x7535;&#x8111;&#x4E0A;&#x7684;&#x6587;&#x4EF6;&#x8DEF;&#x5F84;&gt; &lt;&#x8BBE;&#x5907;&#x91CC;&#x7684;&#x76EE;&#x5F55;&gt;
+</code></pre>
+<p>&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">adb push ~/adb.mp4 /sdcard/
+</code></pre>
+<p><strong>&#x6A21;&#x62DF;&#x6309;&#x952E;/&#x8F93;&#x5165;</strong></p>
+<p>`adb shell input` &#xFF0C;&#x901A;&#x8FC7;&#x5B83;&#x53EF;&#x4EE5;&#x505A;&#x5F88;&#x591A;&#x4E8B;&#x60C5;&#x3002;</p>
+<p>&#x6BD4;&#x5982;&#x4F7F;&#x7528; `adb shell input keyevent \<keycode>` &#x547D;&#x4EE4;&#xFF0C;&#x4E0D;&#x540C;&#x7684; keycode &#x80FD;&#x5B9E;&#x73B0;&#x4E0D;&#x540C;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x5B8C;&#x6574;&#x7684; keycode &#x5217;&#x8868;&#x8BE6;(<a href="https://link.zhihu.com/?target=https%3A//developer.android.com/reference/android/view/KeyEvent.html" target="_blank">https://developer.android.com/reference/android/view/KeyEvent.html</a>)&#xFF0C;&#x6458;&#x5F15;&#x90E8;&#x5206;&#x5982;&#x4E0B;&#xFF1A;</keycode></p>
+<table data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal"><tbody><tr><td>keycode</td><td>&#x542B;&#x4E49;</td></tr><tr><td>3</td><td>HOME &#x952E;</td></tr><tr><td>4</td><td>&#x8FD4;&#x56DE;&#x952E;</td></tr><tr><td>5</td><td>&#x6253;&#x5F00;&#x62E8;&#x53F7;&#x5E94;&#x7528;</td></tr><tr><td>6</td><td>&#x6302;&#x65AD;&#x7535;&#x8BDD;</td></tr><tr><td>24</td><td>&#x589E;&#x52A0;&#x97F3;&#x91CF;</td></tr><tr><td>25</td><td>&#x964D;&#x4F4E;&#x97F3;&#x91CF;</td></tr><tr><td>26</td><td>&#x7535;&#x6E90;&#x952E;</td></tr><tr><td>27</td><td>&#x62CD;&#x7167;&#xFF08;&#x9700;&#x8981;&#x5728;&#x76F8;&#x673A;&#x5E94;&#x7528;&#x91CC;&#xFF09;</td></tr><tr><td>64 &#x200D;&#x200D;</td><td>&#x6253;&#x5F00;&#x6D4F;&#x89C8;&#x5668;</td></tr><tr><td>82</td><td>&#x83DC;&#x5355;&#x952E;</td></tr><tr><td>85</td><td>&#x64AD;&#x653E;/&#x6682;&#x505C;</td></tr><tr><td>86</td><td>&#x505C;&#x6B62;&#x64AD;&#x653E;</td></tr><tr><td>87&#x200D;</td><td>&#x64AD;&#x653E;&#x4E0B;&#x4E00;&#x9996;&#x200D;</td></tr><tr><td>88</td><td>&#x64AD;&#x653E;&#x4E0A;&#x4E00;&#x9996;</td></tr><tr><td>122</td><td>&#x79FB;&#x52A8;&#x5149;&#x6807;&#x5230;&#x884C;&#x9996;&#x6216;&#x5217;&#x8868;&#x9876;&#x90E8;</td></tr><tr><td>123</td><td>&#x79FB;&#x52A8;&#x5149;&#x6807;&#x5230;&#x884C;&#x672B;&#x6216;&#x5217;&#x8868;&#x5E95;&#x90E8;</td></tr></tbody></table>
+
+<table data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal"><tbody><tr><td>126</td><td>&#x6062;&#x590D;&#x64AD;&#x653E;</td></tr><tr><td>127</td><td>&#x6682;&#x505C;&#x64AD;&#x653E;</td></tr><tr><td>164</td><td>&#x9759;&#x97F3;</td></tr><tr><td>176</td><td>&#x6253;&#x5F00;&#x7CFB;&#x7EDF;&#x8BBE;&#x7F6E;</td></tr><tr><td>187</td><td>&#x5207;&#x6362;&#x5E94;&#x7528;</td></tr><tr><td>207</td><td>&#x6253;&#x5F00;&#x8054;&#x7CFB;&#x4EBA;</td></tr><tr><td>208</td><td>&#x6253;&#x5F00;&#x65E5;&#x5386;</td></tr><tr><td>209</td><td>&#x6253;&#x5F00;&#x97F3;&#x4E50;</td></tr><tr><td>210 &#x200D;</td><td>&#x6253;&#x5F00;&#x8BA1;&#x7B97;&#x5668;</td></tr><tr><td>220</td><td>&#x964D;&#x4F4E;&#x5C4F;&#x5E55;&#x4EAE;&#x5EA6;</td></tr><tr><td>221</td><td>&#x63D0;&#x9AD8;&#x5C4F;&#x5E55;&#x4EAE;&#x5EA6;</td></tr><tr><td>223</td><td>&#x7CFB;&#x7EDF;&#x4F11;&#x7720;</td></tr><tr><td>224&#x200D;</td><td>&#x70B9;&#x4EAE;&#x5C4F;&#x5E55;</td></tr><tr><td>231</td><td>&#x6253;&#x5F00;&#x8BED;&#x97F3;&#x52A9;&#x624B;</td></tr><tr><td>276</td><td>&#x5982;&#x679C;&#x6CA1;&#x6709; wakelock &#x5219;&#x8BA9;&#x7CFB;&#x7EDF;&#x4F11;&#x7720;</td></tr></tbody></table>
+
+<p>&#x4E0B;&#x9762;&#x662F; `input` &#x547D;&#x4EE4;&#x7684;&#x4E00;&#x4E9B;&#x7528;&#x6CD5;&#x4E3E;&#x4F8B;&#x3002;</p>
+<p>&#x7535;&#x6E90;&#x952E;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell input keyevent 26
+</code></pre>
+<p>&#x6267;&#x884C;&#x6548;&#x679C;&#x76F8;&#x5F53;&#x4E8E;&#x6309;&#x7535;&#x6E90;&#x952E;&#x3002;</p>
+<p>&#x83DC;&#x5355;&#x952E;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell input keyevent 82
+</code></pre>
+<p>&#x5176;&#x5B83;&#x547D;&#x4EE4;&#x4F7F;&#x7528;&#x65B9;&#x5F0F;&#x5982;&#x4E0A;&#xFF0C;&#x8FD9;&#x91CC;&#x4E0D;&#x518D;&#x505A;&#x8FC7;&#x591A;&#x6F14;&#x793A;</p>
+<p>&#x6ED1;&#x52A8;&#x89E3;&#x9501;</p>
+<p>&#x9501;&#x5C4F;&#x901A;&#x8FC7;&#x6ED1;&#x52A8;&#x624B;&#x52BF;&#x89E3;&#x9501;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; `input swipe` &#x6765;&#x5B9E;&#x73B0;&#x3002;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell input swipe 300 1000 300 500
+</code></pre>
+<p>&#x53C2;&#x6570; `300 1000 300 500` &#x5206;&#x522B;&#x8868;&#x793A;`&#x8D77;&#x59CB;&#x70B9;x&#x5750;&#x6807; &#x8D77;&#x59CB;&#x70B9;y&#x5750;&#x6807; &#x7ED3;&#x675F;&#x70B9;x&#x5750;&#x6807; &#x7ED3;&#x675F;&#x70B9;y&#x5750;&#x6807;`&#x3002;</p>
+<p>&#x8F93;&#x5165;&#x6587;&#x672C;</p>
+<p>&#x70B9;&#x51FB;&#x67D0;&#x6587;&#x672C;&#x6846;&#x540E;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; `input` &#x547D;&#x4EE4;&#x6765;&#x8F93;&#x5165;&#x6587;&#x672C;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell input text hello
+</code></pre>
+<p>&#x73B0;&#x5728; `hello` &#x51FA;&#x73B0;&#x5728;&#x6587;&#x672C;&#x6846;&#x4E86;&#x3002;</p>
+<p><strong>&#x67E5;&#x770B;&#x65E5;&#x5FD7;</strong></p>
+<p>Android &#x65E5;&#x5FD7;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-text">[adb] logcat [&lt;option&gt;] ... [&lt;filter-spec&gt;] ...
+</code></pre>
+<p>&#x5E38;&#x7528;&#x7528;&#x6CD5;&#x5217;&#x4E3E;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>#### &#x6309;&#x7EA7;&#x522B;&#x8FC7;&#x6EE4;&#x65E5;&#x5FD7;</p>
+<p>Android &#x7684;&#x65E5;&#x5FD7;&#x4F18;&#x5148;&#x7EA7;&#xFF08;priority&#xFF09;&#xFF1A;</p>
+<ul>
+<li>V &#x2014;&#x2014; Verbose&#xFF08;&#x6700;&#x4F4E;&#xFF0C;&#x8F93;&#x51FA;&#x5F97;&#x6700;&#x591A;&#xFF09;</li>
+<li>D &#x2014;&#x2014; Debug</li>
+<li>I &#x2014;&#x2014; Info</li>
+<li>W &#x2014;&#x2014; Warning</li>
+<li>E &#x2014;&#x2014; Error</li>
+<li>F &#x2014;&#x2014; Fatal</li>
+<li>S &#x2014;&#x2014; Silent&#xFF08;&#x6700;&#x9AD8;&#xFF0C;&#x5565;&#x4E5F;&#x4E0D;&#x8F93;&#x51FA;&#xFF09;</li>
+</ul>
+<p>&#x6309;&#x67D0;&#x7EA7;&#x522B;&#x8FC7;&#x6EE4;&#x65E5;&#x5FD7;&#x5219;&#x4F1A;&#x5C06;&#x8BE5;&#x7EA7;&#x522B;&#x53CA;&#x4EE5;&#x4E0A;&#x7684;&#x65E5;&#x5FD7;&#x8F93;&#x51FA;&#x3002;</p>
+<p>&#x6BD4;&#x5982;&#xFF0C;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-text">adb logcat *:W
+</code></pre>
+<p>&#x4F1A;&#x5C06; Warning&#x3001;Error&#x3001;Fatal &#x548C; Silent &#x65E5;&#x5FD7;&#x8F93;&#x51FA;&#x3002;</p>
+<p>&#x6309; tag &#x548C;&#x7EA7;&#x522B;&#x8FC7;&#x6EE4;&#x65E5;&#x5FD7;</p>
+<p>`\<filter-spec>` &#x53EF;&#x4EE5;&#x7531;&#x591A;&#x4E2A; `\<tag>[:priority]` &#x7EC4;&#x6210;&#x3002;</tag></filter-spec></p>
+<p>&#x6BD4;&#x5982;&#xFF0C;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-text">adb logcat ActivityManager:I MyApp:D *:S
+</code></pre>
+<p>&#x8868;&#x793A;&#x8F93;&#x51FA; tag `ActivityManager` &#x7684; Info &#x4EE5;&#x4E0A;&#x7EA7;&#x522B;&#x65E5;&#x5FD7;&#xFF0C;&#x8F93;&#x51FA; tag `MyApp` &#x7684; Debug &#x4EE5;&#x4E0A;&#x7EA7;&#x522B;&#x65E5;&#x5FD7;&#xFF0C;&#x53CA;&#x5176;&#x5B83; tag &#x7684; Silent &#x7EA7;&#x522B;&#x65E5;&#x5FD7;&#xFF08;&#x5373;&#x5C4F;&#x853D;&#x5176;&#x5B83; tag &#x65E5;&#x5FD7;&#xFF09;&#x3002;</p>
+<p>&#x65E5;&#x5FD7;&#x683C;&#x5F0F;</p>
+<p>&#x53EF;&#x4EE5;&#x7528; `adb logcat -v \<format>` &#x9009;&#x9879;&#x6307;&#x5B9A;&#x65E5;&#x5FD7;&#x8F93;&#x51FA;&#x683C;&#x5F0F;&#x3002;</format></p>
+<p>&#x65E5;&#x5FD7;&#x652F;&#x6301;&#x6309;&#x4EE5;&#x4E0B;&#x51E0;&#x79CD; `\<format>`&#xFF1A;</format></p>
+<p>* brief</p>
+<p>&#x9ED8;&#x8BA4;&#x683C;&#x5F0F;&#x3002;&#x683C;&#x5F0F;&#x4E3A;&#xFF1A;</p>
+<pre><code class="lang-text">&lt;priority&gt;/&lt;tag&gt;(&lt;pid&gt;): &lt;message&gt;
+</code></pre>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">D/HeadsetStateMachine( 1785): Disconnected process message: 10, size: 0
+</code></pre>
+<p>* process</p>
+<p>&#x683C;&#x5F0F;&#x4E3A;&#xFF1A;</p>
+<pre><code class="lang-text">&lt;priority&gt;(&lt;pid&gt;) &lt;message&gt;
+</code></pre>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text"> D( 1785) Disconnected process message: 10, size: 0  (HeadsetStateMachine)
+</code></pre>
+<p>* tag</p>
+<p>&#x683C;&#x5F0F;&#x4E3A;\<priority>/\<tag>: \<message></message></tag></priority></p>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">D/HeadsetStateMachine: Disconnected process message: 10, size: 0
+</code></pre>
+<p>* raw</p>
+<p>&#x683C;&#x5F0F;&#x4E3A;&#xFF1A;</p>
+<pre><code class="lang-text"> &lt;message&gt;
+</code></pre>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">Disconnected process message: 10, size: 0
+</code></pre>
+<p>* time</p>
+<p>&#x683C;&#x5F0F;&#x4E3A;&#xFF1A;</p>
+<pre><code class="lang-text">&lt;datetime&gt; &lt;priority&gt;/&lt;tag&gt;(&lt;pid&gt;): &lt;message&gt;
+</code></pre>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">08-28 22:39:39.974 D/HeadsetStateMachine( 1785): Disconnected process message: 10, size: 0
+</code></pre>
+<p>* threadtime</p>
+<p>&#x683C;&#x5F0F;&#x4E3A;&#xFF1A;</p>
+<pre><code class="lang-text">&lt;datetime&gt; &lt;pid&gt; &lt;tid&gt; &lt;priority&gt; &lt;tag&gt;: &lt;message&gt;
+</code></pre>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">08-28 22:39:39.974  1785  1832 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+</code></pre>
+<p>* long</p>
+<p>&#x683C;&#x5F0F;&#x4E3A;&#xFF1A;</p>
+<pre><code class="lang-text"> [ &lt;datetime&gt; &lt;pid&gt;:&lt;tid&gt; &lt;priority&gt;/&lt;tag&gt; ]
+  &lt;message&gt;
+</code></pre>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">[ 08-28 22:39:39.974  1785: 1832 D/HeadsetStateMachine ]
+
+  Disconnected process message: 10, size: 0
+</code></pre>
+<p>&#x6307;&#x5B9A;&#x683C;&#x5F0F;&#x53EF;&#x4E0E;&#x4E0A;&#x9762;&#x7684;&#x8FC7;&#x6EE4;&#x540C;&#x65F6;&#x4F7F;&#x7528;&#x3002;&#x6BD4;&#x5982;&#xFF1A;</p>
+<pre><code class="lang-text">adb logcat -v long ActivityManager:I *:S
+</code></pre>
+<p>&#x6E05;&#x7A7A;&#x65E5;&#x5FD7;</p>
+<pre><code class="lang-text">adb logcat -c
+</code></pre>
+<p>&#x5185;&#x6838;&#x65E5;&#x5FD7;</p>
+<pre><code class="lang-text">adb shell dmesg
+</code></pre>
+<p>&#x8F93;&#x51FA;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">&lt;6&gt;[14201.684016] PM: noirq resume of devices complete after 0.982 msecs
+&lt;6&gt;[14201.685525] PM: early resume of devices complete after 0.838 msecs
+&lt;6&gt;[14201.753642] PM: resume of devices complete after 68.106 msecs
+&lt;4&gt;[14201.755954] Restarting tasks ... done.
+&lt;6&gt;[14201.771229] PM: suspend exit 2016-08-28 13:31:32.679217193 UTC
+&lt;6&gt;[14201.872373] PM: suspend entry 2016-08-28 13:31:32.780363596 UTC
+&lt;6&gt;[14201.872498] PM: Syncing filesystems ... done.
+</code></pre>
+<p>&#x4E2D;&#x62EC;&#x53F7;&#x91CC;&#x7684; `[14201.684016]` &#x4EE3;&#x8868;&#x5185;&#x6838;&#x5F00;&#x59CB;&#x542F;&#x52A8;&#x540E;&#x7684;&#x65F6;&#x95F4;&#xFF0C;&#x5355;&#x4F4D;&#x4E3A;&#x79D2;&#x3002;</p>
+<p>&#x901A;&#x8FC7;&#x5185;&#x6838;&#x65E5;&#x5FD7;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x505A;&#x4E00;&#x4E9B;&#x4E8B;&#x60C5;&#xFF0C;&#x6BD4;&#x5982;&#x8861;&#x91CF;&#x5185;&#x6838;&#x542F;&#x52A8;&#x65F6;&#x95F4;&#xFF0C;&#x5728;&#x7CFB;&#x7EDF;&#x542F;&#x52A8;&#x5B8C;&#x6BD5;&#x540E;&#x7684;&#x5185;&#x6838;&#x65E5;&#x5FD7;&#x91CC;&#x627E;&#x5230; `Freeing init memory` &#x90A3;&#x4E00;&#x884C;&#x524D;&#x9762;&#x7684;&#x65F6;&#x95F4;&#x5C31;&#x662F;&#x3002;</p>
+<p><strong>&#x67E5;&#x770B;&#x8BBE;&#x5907;&#x4FE1;&#x606F;</strong></p>
+<p>&#x578B;&#x53F7;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell getprop ro.product.model
+</code></pre>
+<p>&#x8F93;&#x51FA;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">VOG-AL10
+</code></pre>
+<p>&#x7535;&#x6C60;&#x72B6;&#x51B5;</p>
+<pre><code class="lang-text">adb shell dumpsys battery
+</code></pre>
+<p>&#x8F93;&#x5165;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">Current Battery Service state:
+  AC powered: false
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 500000
+  Max charging voltage: 4718000
+  Charge counter: 450000
+  status: 2
+  health: 2
+  present: true
+  level: 85
+  scale: 100
+  voltage: 4203
+  temperature: 240
+  technology: Li-poly
+</code></pre>
+<p>&#x5176;&#x4E2D; `scale` &#x4EE3;&#x8868;&#x6700;&#x5927;&#x7535;&#x91CF;&#xFF0C;`level` &#x4EE3;&#x8868;&#x5F53;&#x524D;&#x7535;&#x91CF;&#x3002;&#x4E0A;&#x9762;&#x7684;&#x8F93;&#x51FA;&#x8868;&#x793A;&#x8FD8;&#x5269;&#x4E0B; 44\% &#x7684;&#x7535;&#x91CF;&#x3002;</p>
+<p>&#x5C4F;&#x5E55;&#x5206;&#x8FA8;&#x7387;</p>
+<pre><code class="lang-text">adb shell wm size
+</code></pre>
+<p>&#x8F93;&#x51FA;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">Physical size: 1080x2340
+</code></pre>
+<p>&#x8BE5;&#x8BBE;&#x5907;&#x5C4F;&#x5E55;&#x5206;&#x8FA8;&#x7387;&#x4E3A; 1080px * 2340px&#x3002;</p>
+<p>&#x5C4F;&#x5E55;&#x5BC6;&#x5EA6;</p>
+<pre><code class="lang-text">adb shell wm density
+</code></pre>
+<p>&#x8F93;&#x51FA;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">Physical density: 480
+</code></pre>
+<p>&#x663E;&#x793A;&#x5C4F;&#x53C2;&#x6570;</p>
+<pre><code class="lang-text">adb shell dumpsys window displays
+</code></pre>
+<p>&#x8F93;&#x51FA;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">WINDOW MANAGER DISPLAY CONTENTS (dumpsys window displays)
+  Display: mDisplayId=0
+    init=1080x2340 480dpi cur=1080x2340 app=1080x2265 rng=1080x1005-2265x2265
+    deferred=false mLayoutNeeded=false mTouchExcludeRegion=SkRegion((0,0,1080,2458))
+
+  mLayoutSeq=355690
+  mDeferredRotationPauseCount=0
+  mCurrentFocus=Window{c5dd371 u0 com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+  mFocusedApp=AppWindowToken{c67d8b1 token=Token{c617f21 ActivityRecord{c04d409 u0 com.tencent.mm/.ui.LauncherUI t37102}}}
+  mLastStatusBarVisibility=0xa518
+
+  displayId=0
+  mWallpaperTarget=null
+  mLastWallpaperX=0.5 mLastWallpaperY=0.5
+
+  mDeferUpdateImeTargetCount=0
+  ...
+</code></pre>
+<p>android\_id</p>
+<pre><code class="lang-text">adb shell settings get secure android_id
+</code></pre>
+<p>&#x8F93;&#x51FA;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">aadf190ed474a1ae
+</code></pre>
+<p>&#x200D;</p>
+<p>Android &#x7CFB;&#x7EDF;&#x7248;&#x672C;</p>
+<pre><code class="lang-text">adb shell getprop ro.build.version.release
+</code></pre>
+<p>&#x8F93;&#x51FA;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">10
+</code></pre>
+<p>CPU &#x4FE1;&#x606F;</p>
+<pre><code class="lang-text">adb shell cat /proc/cpuinfo
+</code></pre>
+<p>&#x8F93;&#x51FA;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">Processor       : AArch64 Processor rev 0 (aarch64)
+processor       : 0
+BogoMIPS        : 3.84
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd05
+CPU revision    : 0
+
+processor       : 1
+BogoMIPS        : 3.84
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd05
+CPU revision    : 0
+
+processor       : 2
+BogoMIPS        : 3.84
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd05
+CPU revision    : 0
+
+processor       : 3
+BogoMIPS        : 3.84
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd05
+CPU revision    : 0
+
+processor       : 4
+BogoMIPS        : 3.84
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x48
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd40
+CPU revision    : 0
+
+processor       : 5
+BogoMIPS        : 3.84
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x48
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd40
+CPU revision    : 0
+
+processor       : 6
+BogoMIPS        : 3.84
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x48
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd40
+CPU revision    : 0
+
+processor       : 7
+BogoMIPS        : 3.84
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm lrcpc dcpop asimddp
+CPU implementer : 0x48
+CPU architecture: 8
+CPU variant     : 0x1
+CPU part        : 0xd40
+CPU revision    : 0
+
+Hardware        : vendor Kirin980
+</code></pre>
+<p>&#x8FD9;&#x662F;&#x534E;&#x4E3A;P30pro &#x7684; CPU &#x4FE1;&#x606F;</p>
+<p>&#x5185;&#x5B58;&#x4FE1;&#x606F;</p>
+<pre><code class="lang-text">adb shell cat /proc/meminfo
+</code></pre>
+<p>&#x8F93;&#x51FA;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">MemTotal:        7789200 kB
+MemFree:          552980 kB
+MemAvailable:    3076176 kB
+Buffers:            8228 kB
+Cached:          2675048 kB
+SwapCached:        35740 kB
+Active:          1518432 kB
+Inactive:        2521564 kB
+Active(anon):     313244 kB
+Inactive(anon):  1172720 kB
+Active(file):    1205188 kB
+Inactive(file):  1348844 kB
+Unevictable:      154676 kB
+Mlocked:          154676 kB
+SwapTotal:       4194300 kB
+SwapFree:        1386624 kB
+Dirty:                76 kB
+Writeback:             0 kB
+AnonPages:       1505672 kB
+Mapped:          1369448 kB
+Shmem:             42384 kB
+Slab:             558428 kB
+SReclaimable:     215332 kB
+SUnreclaim:       343096 kB
+SlabLarge:         16224 kB
+KernelStack:      113808 kB
+PageTables:       141496 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     8088900 kB
+Committed_AS:   118311256 kB
+VmallocTotal:   262143936 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+CmaTotal:        1187840 kB
+CmaFree:               0 kB
+IonTotalCache:         0 kB
+IonTotalUsed:     282752 kB
+Protected:             0 kB
+RsvTotalUsed:     361988 kB
+</code></pre>
+<p>&#x5176;&#x4E2D;&#xFF0C;`MemTotal` &#x5C31;&#x662F;&#x8BBE;&#x5907;&#x7684;&#x603B;&#x5185;&#x5B58;&#xFF0C;`MemFree` &#x662F;&#x5F53;&#x524D;&#x7A7A;&#x95F2;&#x5185;&#x5B58;&#x3002;</p>
+<p><strong>&#x4FEE;&#x6539;&#x8BBE;&#x7F6E;</strong></p>
+<p>**&#x6CE8;&#xFF1A;** &#x4FEE;&#x6539;&#x8BBE;&#x7F6E;&#x4E4B;&#x540E;&#xFF0C;&#x8FD0;&#x884C;&#x6062;&#x590D;&#x547D;&#x4EE4;&#x6709;&#x53EF;&#x80FD;&#x663E;&#x793A;&#x4ECD;&#x7136;&#x4E0D;&#x592A;&#x6B63;&#x5E38;&#xFF0C;&#x53EF;&#x4EE5;&#x8FD0;&#x884C; `adb reboot` &#x91CD;&#x542F;&#x8BBE;&#x5907;&#xFF0C;&#x6216;&#x624B;&#x52A8;&#x91CD;&#x542F;&#x3002;</p>
+<p>&#x4FEE;&#x6539;&#x8BBE;&#x7F6E;&#x7684;&#x539F;&#x7406;&#x4E3B;&#x8981;&#x662F;&#x901A;&#x8FC7; settings &#x547D;&#x4EE4;&#x4FEE;&#x6539; /data/data/com.android.providers.settings/databases/settings.db &#x91CC;&#x5B58;&#x653E;&#x7684;&#x8BBE;&#x7F6E;&#x503C;&#x3002;</p>
+<p>&#x5206;&#x8FA8;&#x7387;</p>
+<pre><code class="lang-text">adb shell wm size 480x1024
+</code></pre>
+<p>&#x8868;&#x793A;&#x5C06;&#x5206;&#x8FA8;&#x7387;&#x4FEE;&#x6539;&#x4E3A; 480px * 1024px&#x3002;</p>
+<p>&#x6062;&#x590D;&#x539F;&#x5206;&#x8FA8;&#x7387;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell wm size reset
+</code></pre>
+<p>&#x5C4F;&#x5E55;&#x5BC6;&#x5EA6;</p>
+<pre><code class="lang-text">adb shell wm density 160
+</code></pre>
+<p>&#x8868;&#x793A;&#x5C06;&#x5C4F;&#x5E55;&#x5BC6;&#x5EA6;&#x4FEE;&#x6539;&#x4E3A; 160dpi&#x3002;</p>
+<p>&#x6062;&#x590D;&#x539F;&#x5C4F;&#x5E55;&#x5BC6;&#x5EA6;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell wm density reset
+</code></pre>
+<p>&#x663E;&#x793A;&#x533A;&#x57DF;</p>
+<pre><code class="lang-text">adb shell wm overscan 0,0,0,200
+</code></pre>
+<p>&#x56DB;&#x4E2A;&#x6570;&#x5B57;&#x5206;&#x522B;&#x8868;&#x793A;&#x8DDD;&#x79BB;&#x5DE6;&#x3001;&#x4E0A;&#x3001;&#x53F3;&#x3001;&#x4E0B;&#x8FB9;&#x7F18;&#x7684;&#x7559;&#x767D;&#x50CF;&#x7D20;&#xFF0C;&#x4EE5;&#x4E0A;&#x547D;&#x4EE4;&#x8868;&#x793A;&#x5C06;&#x5C4F;&#x5E55;&#x5E95;&#x90E8; 200px &#x7559;&#x767D;&#x3002;</p>
+<p>&#x6062;&#x590D;&#x539F;&#x663E;&#x793A;&#x533A;&#x57DF;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell wm overscan reset
+</code></pre>
+<p>&#x5173;&#x95ED; USB &#x8C03;&#x8BD5;&#x6A21;&#x5F0F;</p>
+<p>&#x6062;&#x590D;&#xFF1A;</p>
+<p>&#x7528;&#x547D;&#x4EE4;&#x6062;&#x590D;&#x4E0D;&#x4E86;&#x4E86;&#xFF0C;&#x6BD5;&#x7ADF;&#x5173;&#x95ED;&#x4E86; USB &#x8C03;&#x8BD5; adb &#x5C31;&#x8FDE;&#x63A5;&#x4E0D;&#x4E0A; Android &#x8BBE;&#x5907;&#x4E86;&#x3002;</p>
+<p>&#x53BB;&#x8BBE;&#x5907;&#x4E0A;&#x624B;&#x52A8;&#x6062;&#x590D;&#x5427;&#xFF1A;&#x300C;&#x8BBE;&#x7F6E;&#x300D;-&#x300C;&#x5F00;&#x53D1;&#x8005;&#x9009;&#x9879;&#x300D;-&#x300C;Android &#x8C03;&#x8BD5;&#x300D;&#x3002;</p>
+<p>&#x5141;&#x8BB8;/&#x7981;&#x6B62;&#x8BBF;&#x95EE;&#x975E; SDK API</p>
+<p>&#x5141;&#x8BB8;&#x8BBF;&#x95EE;&#x975E; SDK API&#xFF1A;</p>
+<pre><code class="lang-text">adb shell settings put global hidden_api_policy_pre_p_apps 1
+adb shell settings put global hidden_api_policy_p_apps 1
+</code></pre>
+<p>&#x7981;&#x6B62;&#x8BBF;&#x95EE;&#x975E; SDK API&#xFF1A;</p>
+<pre><code class="lang-text">adb shell settings delete global hidden_api_policy_pre_p_apps
+adb shell settings delete global hidden_api_policy_p_apps
+</code></pre>
+<p>&#x4E0D;&#x9700;&#x8981;&#x8BBE;&#x5907;&#x83B7;&#x5F97; Root &#x6743;&#x9650;&#x3002;</p>
+<p>&#x547D;&#x4EE4;&#x6700;&#x540E;&#x7684;&#x6570;&#x5B57;&#x7684;&#x542B;&#x4E49;&#xFF1A;</p>
+<table data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal"><tbody><tr><td>&#x503C;</td><td>&#x542B;&#x4E49;</td></tr><tr><td>0</td><td>&#x7981;&#x6B62;&#x68C0;&#x6D4B;&#x975E; SDK &#x63A5;&#x53E3;&#x7684;&#x8C03;&#x7528;&#x3002;&#x8BE5;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x65E5;&#x5FD7;&#x8BB0;&#x5F55;&#x529F;&#x80FD;&#x88AB;&#x7981;&#x7528;&#xFF0C;&#x5E76;&#x4E14;&#x4EE4; strict mode API&#xFF0C;&#x5373; detectNonSdkApiUsage() &#x65E0;&#x6548;&#x3002;&#x4E0D;&#x63A8;&#x8350;</td></tr><tr><td>1</td><td>&#x4EC5;&#x8B66;&#x544A;&#x2014;&#x2014;&#x5141;&#x8BB8;&#x8BBF;&#x95EE;&#x6240;&#x6709;&#x975E; SDK &#x63A5;&#x53E3;&#xFF0C;&#x4F46;&#x4FDD;&#x7559;&#x65E5;&#x5FD7;&#x4E2D;&#x7684;&#x8B66;&#x544A;&#x4FE1;&#x606F;&#xFF0C;&#x53EF;&#x7EE7;&#x7EED;&#x4F7F;&#x7528; strick mode API</td></tr><tr><td>2</td><td>&#x7981;&#x6B62;&#x8C03;&#x7528;&#x6DF1;&#x7070;&#x540D;&#x5355;&#x548C;&#x9ED1;&#x540D;&#x5355;&#x4E2D;&#x7684;&#x63A5;&#x53E3;</td></tr><tr><td>3</td><td>&#x7981;&#x6B62;&#x8C03;&#x7528;&#x9ED1;&#x540D;&#x5355;&#x4E2D;&#x7684;&#x63A5;&#x53E3;&#xFF0C;&#x4F46;&#x5141;&#x8BB8;&#x8C03;&#x7528;&#x6DF1;&#x7070;&#x540D;&#x5355;&#x4E2D;&#x7684;&#x63A5;&#x53E3;</td></tr></tbody></table>
+
+<p>&#x72B6;&#x6001;&#x680F;&#x548C;&#x5BFC;&#x822A;&#x680F;&#x7684;&#x663E;&#x793A;&#x9690;&#x85CF;</p>
+<p>&#x672C;&#x8282;&#x6240;&#x8BF4;&#x7684;&#x76F8;&#x5173;&#x8BBE;&#x7F6E;&#x5BF9;&#x5E94; Cyanogenmod &#x91CC;&#x7684;&#x300C;&#x6269;&#x5C55;&#x684C;&#x9762;&#x300D;&#x3002;</p>
+<pre><code class="lang-text">adb shell settings put global policy_control &lt;key-values&gt;
+</code></pre>
+<p>`\<key-values>` &#x53EF;&#x7531;&#x5982;&#x4E0B;&#x51E0;&#x79CD;&#x952E;&#x53CA;&#x5176;&#x5BF9;&#x5E94;&#x7684;&#x503C;&#x7EC4;&#x6210;&#xFF0C;&#x683C;&#x5F0F;&#x4E3A; `\<key1>=\<value1>:\<key2>=\<value2>`&#x3002;</value2></key2></value1></key1></key-values></p>
+<table data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal"><tbody><tr><td>key</td><td>&#x542B;&#x4E49;</td></tr><tr><td>immersive.full</td><td>&#x540C;&#x65F6;&#x9690;&#x85CF;</td></tr><tr><td>immersive.status</td><td>&#x9690;&#x85CF;&#x72B6;&#x6001;&#x680F;</td></tr><tr><td>immersive.navigation</td><td>&#x9690;&#x85CF;&#x5BFC;&#x822A;&#x680F;</td></tr><tr><td>mmersive.preconfirms</td><td>?</td></tr></tbody></table>
+
+<p>&#x8FD9;&#x4E9B;&#x952E;&#x5BF9;&#x5E94;&#x7684;&#x503C;&#x53EF;&#x5219;&#x5982;&#x4E0B;&#x503C;&#x7528;&#x9017;&#x53F7;&#x7EC4;&#x5408;&#xFF1A;</p>
+<table data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal"><tbody><tr><td>value</td><td>&#x542B;&#x4E49;</td></tr><tr><td>apps</td><td>&#x6240;&#x6709;&#x5E94;&#x7528;</td></tr><tr><td>*</td><td>&#x6240;&#x6709;&#x754C;&#x9762;</td></tr><tr><td>packagename</td><td>&#x6307;&#x5B9A;&#x5E94;&#x7528;</td></tr><tr><td>-packagename</td><td>&#x6392;&#x9664;&#x6307;&#x5B9A;&#x5E94;&#x7528;</td></tr></tbody></table>
+
+<p>&#x4F8B;&#x5982;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell settings put global policy_control immersive.full=*
+</code></pre>
+<p>&#x8868;&#x793A;&#x8BBE;&#x7F6E;&#x5728;&#x6240;&#x6709;&#x754C;&#x9762;&#x4E0B;&#x90FD;&#x540C;&#x65F6;&#x9690;&#x85CF;&#x72B6;&#x6001;&#x680F;&#x548C;&#x5BFC;&#x822A;&#x680F;&#x3002;</p>
+<pre><code class="lang-text">adb shell settings put global policy_control immersive.status=com.package1,com.package2:immersive.navigation=apps,-com.package3
+</code></pre>
+<p>&#x8868;&#x793A;&#x8BBE;&#x7F6E;&#x5728;&#x5305;&#x540D;&#x4E3A; `com.package1` &#x548C; `com.package2` &#x7684;&#x5E94;&#x7528;&#x91CC;&#x9690;&#x85CF;&#x72B6;&#x6001;&#x680F;&#xFF0C;&#x5728;&#x9664;&#x4E86;&#x5305;&#x540D;&#x4E3A; `com.package3` &#x7684;&#x6240;&#x6709;&#x5E94;&#x7528;&#x91CC;&#x9690;&#x85CF;&#x5BFC;&#x822A;&#x680F;&#x3002;</p>
+<p><strong>&#x5B9E;&#x7528;&#x529F;&#x80FD;</strong></p>
+<p>&#x5C4F;&#x5E55;&#x622A;&#x56FE;</p>
+<p>&#x622A;&#x56FE;&#x4FDD;&#x5B58;&#x5230;&#x7535;&#x8111;&#xFF1A;</p>
+<pre><code class="lang-text">adb exec-out screencap -p &gt; sc.png
+</code></pre>
+<p>&#x5982;&#x679C; adb &#x7248;&#x672C;&#x8F83;&#x8001;&#xFF0C;&#x65E0;&#x6CD5;&#x4F7F;&#x7528; `exec-out` &#x547D;&#x4EE4;&#xFF0C;&#x8FD9;&#x65F6;&#x5019;&#x5EFA;&#x8BAE;&#x66F4;&#x65B0; adb &#x7248;&#x672C;&#x3002;&#x65E0;&#x6CD5;&#x66F4;&#x65B0;&#x7684;&#x8BDD;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x4EE5;&#x4E0B;&#x9EBB;&#x70E6;&#x70B9;&#x7684;&#x529E;&#x6CD5;&#xFF1A;</p>
+<p>&#x5148;&#x622A;&#x56FE;&#x4FDD;&#x5B58;&#x5230;&#x8BBE;&#x5907;&#x91CC;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell screencap -p /sdcard/sc.png
+</code></pre>
+<p>&#x7136;&#x540E;&#x5C06; png &#x6587;&#x4EF6;&#x5BFC;&#x51FA;&#x5230;&#x7535;&#x8111;&#xFF1A;</p>
+<pre><code class="lang-text">adb pull /sdcard/sc.png
+</code></pre>
+<p>&#x5F55;&#x5236;&#x5C4F;&#x5E55;</p>
+<p>&#x5F55;&#x5236;&#x5C4F;&#x5E55;&#x4EE5; mp4 &#x683C;&#x5F0F;&#x4FDD;&#x5B58;&#x5230; /sdcard&#xFF1A;</p>
+<pre><code class="lang-text">adb shell screenrecord /sdcard/filename.mp4
+</code></pre>
+<p>&#x9700;&#x8981;&#x505C;&#x6B62;&#x65F6;&#x6309; \<kbd>Ctrl-C\</kbd>&#xFF0C;&#x9ED8;&#x8BA4;&#x5F55;&#x5236;&#x65F6;&#x95F4;&#x548C;&#x6700;&#x957F;&#x5F55;&#x5236;&#x65F6;&#x95F4;&#x90FD;&#x662F; 180 &#x79D2;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x9700;&#x8981;&#x5BFC;&#x51FA;&#x5230;&#x7535;&#x8111;&#xFF1A;</p>
+<pre><code class="lang-text">adb pull /sdcard/filename.mp4
+</code></pre>
+<p>&#x53EF;&#x4EE5;&#x4F7F;&#x7528; `adb shell screenrecord --help` &#x67E5;&#x770B; `screenrecord` &#x547D;&#x4EE4;&#x7684;&#x5E2E;&#x52A9;&#x4FE1;&#x606F;&#xFF0C;&#x4E0B;&#x9762;&#x662F;&#x5E38;&#x89C1;&#x53C2;&#x6570;&#x53CA;&#x542B;&#x4E49;&#xFF1A;</p>
+<table data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal"><tbody><tr><td>&#x53C2;&#x6570;</td><td>&#x542B;&#x4E49;</td></tr><tr><td>--size WIDTHxHEIGHT</td><td>&#x89C6;&#x9891;&#x7684;&#x5C3A;&#x5BF8;&#xFF0C;&#x6BD4;&#x5982; `1280x720`&#xFF0C;&#x9ED8;&#x8BA4;&#x662F;&#x5C4F;&#x5E55;&#x5206;&#x8FA8;&#x7387;&#x3002;</td></tr><tr><td>--bit-rate RATE</td><td>&#x89C6;&#x9891;&#x7684;&#x6BD4;&#x7279;&#x7387;&#xFF0C;&#x9ED8;&#x8BA4;&#x662F; 4Mbps&#x3002;</td></tr><tr><td>--time-limit TIME</td><td>&#x5F55;&#x5236;&#x65F6;&#x957F;&#xFF0C;&#x5355;&#x4F4D;&#x79D2;</td></tr><tr><td>--verbose</td><td>&#x8F93;&#x51FA;&#x66F4;&#x591A;&#x4FE1;&#x606F;&#x3002;</td></tr></tbody></table>
+
+<p>&#x8BBE;&#x7F6E;&#x7CFB;&#x7EDF;&#x65E5;&#x671F;&#x548C;&#x65F6;&#x95F4;</p>
+<p><strong>**&#x6CE8;&#xFF1A;&#x9700;&#x8981; root &#x6743;&#x9650;&#x3002;**</strong></p>
+<pre><code class="lang-text">adb shell
+su
+date -s 20160823.131500
+</code></pre>
+<p>&#x8868;&#x793A;&#x5C06;&#x7CFB;&#x7EDF;&#x65E5;&#x671F;&#x548C;&#x65F6;&#x95F4;&#x66F4;&#x6539;&#x4E3A; 2016 &#x5E74; 08 &#x6708; 23 &#x65E5; 13 &#x70B9; 15 &#x5206; 00 &#x79D2;&#x3002;</p>
+<p>&#x91CD;&#x542F;&#x624B;&#x673A;</p>
+<pre><code class="lang-text">adb reboot
+</code></pre>
+<p>&#x68C0;&#x6D4B;&#x8BBE;&#x5907;&#x662F;&#x5426;&#x5DF2; root</p>
+<pre><code class="lang-text">adb shell
+</code></pre>
+<p>&#x6B64;&#x65F6;&#x547D;&#x4EE4;&#x884C;&#x63D0;&#x793A;&#x7B26;&#x662F; `$` &#x5219;&#x8868;&#x793A;&#x6CA1;&#x6709; root &#x6743;&#x9650;&#xFF0C;&#x662F; `#` &#x5219;&#x8868;&#x793A;&#x5DF2; root&#x3002;</p>
+<p>&#x4F7F;&#x7528; Monkey &#x8FDB;&#x884C;&#x538B;&#x529B;&#x6D4B;&#x8BD5;</p>
+<p>Monkey &#x53EF;&#x4EE5;&#x751F;&#x6210;&#x4F2A;&#x968F;&#x673A;&#x7528;&#x6237;&#x4E8B;&#x4EF6;&#x6765;&#x6A21;&#x62DF;&#x5355;&#x51FB;&#x3001;&#x89E6;&#x6478;&#x3001;&#x624B;&#x52BF;&#x7B49;&#x64CD;&#x4F5C;&#xFF0C;&#x53EF;&#x4EE5;&#x5BF9;&#x6B63;&#x5728;&#x5F00;&#x53D1;&#x4E2D;&#x7684;&#x7A0B;&#x5E8F;&#x8FDB;&#x884C;&#x968F;&#x673A;&#x538B;&#x529B;&#x6D4B;&#x8BD5;&#x3002;</p>
+<p>&#x7B80;&#x5355;&#x7528;&#x6CD5;&#xFF1A;</p>
+<pre><code class="lang-text">adb shell monkey -p &lt;packagename&gt; -v 500
+</code></pre>
+<p>&#x8868;&#x793A;&#x5411; `\<packagename>` &#x6307;&#x5B9A;&#x7684;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x53D1;&#x9001; 500 &#x4E2A;&#x4F2A;&#x968F;&#x673A;&#x4E8B;&#x4EF6;&#x3002;</packagename></p>
+<p>Monkey &#x7684;&#x8BE6;&#x7EC6;&#x7528;&#x6CD5;&#x53C2;&#x8003; &#x5B98;&#x65B9;&#x6587;&#x6863;(<a href="https://link.zhihu.com/?target=https%3A//developer.android.com/studio/test/monkey.html" target="_blank">https://developer.android.com/studio/test/monkey.html</a>)&#x3002;</p>
+<p>Android &#x7CFB;&#x7EDF;&#x662F;&#x57FA;&#x4E8E; Linux &#x5185;&#x6838;&#x7684;&#xFF0C;&#x6240;&#x4EE5; Linux &#x91CC;&#x7684;&#x5F88;&#x591A;&#x547D;&#x4EE4;&#x5728; Android &#x91CC;&#x4E5F;&#x6709;&#x76F8;&#x540C;&#x6216;&#x7C7B;&#x4F3C;&#x7684;&#x5B9E;&#x73B0;&#xFF0C;&#x5728; `adb shell` &#x91CC;&#x53EF;&#x4EE5;&#x8C03;&#x7528;&#x3002;&#x672C;&#x6587;&#x6863;&#x524D;&#x9762;&#x7684;&#x90E8;&#x5206;&#x5185;&#x5BB9;&#x5DF2;&#x7ECF;&#x7528;&#x5230;&#x4E86; `adb shell` &#x547D;&#x4EE4;&#x3002;</p>
+<p>&#x67E5;&#x770B;&#x8FDB;&#x7A0B;</p>
+<pre><code class="lang-text">adb shell ps
+</code></pre>
+<p>&#x8F93;&#x51FA;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">USER           PID  PPID     VSZ    RSS WCHAN            ADDR S NAME
+root             1     0   78156   3180 0                   0 S init
+root             2     0       0      0 0                   0 S [kthreadd]
+root             3     2       0      0 0                   0 I [rcu_gp]
+root             7     2       0      0 0                   0 I [mm_percpu_wq]
+root             8     2       0      0 0                   0 S [ksoftirqd/0]
+root             9     2       0      0 0                   0 I [rcu_preempt]
+root            10     2       0      0 0                   0 I [rcu_sched]
+root            11     2       0      0 0                   0 I [rcu_bh]
+root            12     2       0      0 0                   0 S [migration/0]
+root            13     2       0      0 0                   0 S [watchdog/0]
+root            14     2       0      0 0                   0 S [cpuhp/0]
+root            15     2       0      0 0                   0 S [cpuhp/1]
+root            16     2       0      0 0                   0 S [watchdog/1]
+root            17     2       0      0 0                   0 S [migration/1]
+root            18     2       0      0 0                   0 S [ksoftirqd/1]
+root            20     2       0      0 0                   0 I [kworker/1:0H]
+root            21     2       0      0 0                   0 S [cpuhp/2]
+root            22     2       0      0 0                   0 S [watchdog/2]
+root            23     2       0      0 0                   0 S [migration/2]
+root            24     2       0      0 0                   0 S [ksoftirqd/2]
+root            27     2       0      0 0                   0 S [cpuhp/3]
+root            28     2       0      0 0                   0 S [watchdog/3]
+root            29     2       0      0 0                   0 S [migration/3]
+root            30     2       0      0 0                   0 S [ksoftirqd/3]
+root            32     2       0      0 0                   0 I [kworker/3:0H]
+root            33     2       0      0 0                   0 S [cpuhp/4]
+root            34     2       0      0 0                   0 S [watchdog/4]
+root            35     2       0      0 0                   0 S [migration/4]
+root            36     2       0      0 0                   0 S [ksoftirqd/4]
+root            38     2       0      0 0                   0 I [kworker/4:0H]
+root            39     2       0      0 0                   0 S [cpuhp/5]
+root            40     2       0      0 0                   0 S [watchdog/5]
+root            41     2       0      0 0                   0 S [migration/5]
+root            42     2       0      0 0                   0 S [ksoftirqd/5]
+root            44     2       0      0 0                   0 I [kworker/5:0H]
+root            45     2       0      0 0                   0 S [cpuhp/6]
+root            46     2       0      0 0                   0 S [watchdog/6]
+root            47     2       0      0 0                   0 S [migration/6]
+root            48     2       0      0 0                   0 S [ksoftirqd/6]
+root            50     2       0      0 0                   0 I [kworker/6:0H]
+root            51     2       0      0 0                   0 S [cpuhp/7]
+root            52     2       0      0 0                   0 S [watchdog/7]
+root            53     2       0      0 0                   0 S [migration/7]
+root            54     2       0      0 0                   0 S [ksoftirqd/7]
+root            56     2       0      0 0                   0 I [kworker/7:0H]
+root            58     2       0      0 0                   0 D [bbox_main]
+root            60     2       0      0 0                   0 D [bbox_cleartext]
+root            62     2       0      0 0                   0 S [mailbox-10]
+root            63     2       0      0 0                   0 S [mailbox-11]
+root            64     2       0      0 0                   0 S [mailbox-12]
+root            65     2       0      0 0                   0 S [mailbox-13]
+root            66     2       0      0 0                   0 S [mailbox-14]
+root            67     2       0      0 0                   0 S [mailbox-15]
+root            68     2       0      0 0                   0 S [mailbox-16]
+root            69     2       0      0 0                   0 S [mailbox-17]
+root            70     2       0      0 0                   0 S [mailbox-18]
+root            71     2       0      0 0                   0 S [mailbox-23]
+root            72     2       0      0 0                   0 S [mailbox-25]
+root            73     2       0      0 0                   0 S [mailbox-26]
+root            74     2       0      0 0                   0 S [mailbox-27]
+root            75     2       0      0 0                   0 S [mailbox-28]
+root            76     2       0      0 0                   0 S [mailbox-29]
+root            77     2       0      0 0                   0 S [ao-mailbox-0]
+root            79     2       0      0 0                   0 S [khungtaskd]
+root            80     2       0      0 0                   0 I [init_wdt_wkq]
+root            81     2       0      0 0                   0 S [oom_reaper]
+root            82     2       0      0 0                   0 I [writeback]
+root            83     2       0      0 0                   0 S [kcompactd0]
+root            84     2       0      0 0                   0 I [crypto]
+root            85     2       0      0 0                   0 I [kblockd]
+root            86     2       0      0 0                   0 I [io_latency_work]
+root            87     2       0      0 0                   0 I [dsm_wq]
+root            88     2       0      0 0                   0 S [spi3]
+root            90     2       0      0 0                   0 S [irq/148-hisi_pm]
+root            91     2       0      0 0                   0 S [sys_pool]
+root            92     2       0      0 0                   0 S [sys_heap]
+root            93     2       0      0 0                   0 S [camera_daemonhe]
+root            94     2       0      0 0                   0 S [camera_heap]
+root            95     2       0      0 0                   0 I [devfreq_wq]
+root            96     2       0      0 0                   0 S [rdr_lpm3_thread]
+root            97     2       0      0 0                   0 D [hwxcollie]
+root            98     2       0      0 0                   0 I [cfg80211]
+root            99     2       0      0 0                   0 I [watchdogd]
+root           100     2       0      0 0                   0 I [usb_analog_hs_p]
+root           101     2       0      0 0                   0 I [usb_analog_hs_p]
+root           103     2       0      0 0                   0 I [slimbus_lost_sy]
+root           105     2       0      0 0                   0 I [mptcp_wq]
+root           106     2       0      0 0                   0 S [dspdumplog]
+root           107     2       0      0 0                   0 I [hifi_om_work_vo]
+root           108     2       0      0 0                   0 I [hifi_om_work_au]
+root           109     2       0      0 0                   0 I [hifi_om_work_vo]
+root           110     2       0      0 0                   0 I [hifi_om_work_vo]
+root           111     2       0      0 0                   0 I [hifi_om_work_sm]
+root           112     2       0      0 0                   0 I [hifi_om_work_au]
+root           113     2       0      0 0                   0 I [hifi_om_work_au]
+root           114     2       0      0 0                   0 D [mailboxNormal]
+root           115     2       0      0 0                   0 D [mailboxHigh]
+root           117     2       0      0 0                   0 S [siqthread/0]
+root           118     2       0      0 0                   0 S [ipihelper]
+root           120     2       0      0 0                   0 S [agent_rpmb]
+root           121     2       0      0 0                   0 S [tuid]
+root           122     2       0      0 0                   0 S [smc_svc_thread]
+root           123     2       0      0 0                   0 S [interface_msg_p]
+root           162     2       0      0 0                   0 S [kauditd]
+root           163     2       0      0 0                   0 S [kswapd0]
+root           164     2       0      0 0                   0 S [ecryptfs-kthrea]
+root           165     2       0      0 0                   0 I [cifsiod]
+root           166     2       0      0 0                   0 I [cifsoplockd]
+root           167     2       0      0 0                   0 S [fid_async_t]
+root           168     2       0      0 0                   0 I [EIMA]
+root           173     2       0      0 0                   0 I [HW_KERNEL_STP_M]
+root           174     2       0      0 0                   0 I [HW_KERNEL_STP_S]
+root           218     2       0      0 0                   0 I [kthrotld]
+root           219     2       0      0 0                   0 I [fb0_dss_debug]
+root           220     2       0      0 0                   0 I [fb0_ldi_underfl]
+root           221     2       0      0 0                   0 I [pipe_clk_updt_w]
+root           222     2       0      0 0                   0 I [fb0_hiace_end]
+root           223     2       0      0 0                   0 I [fb0_gmp_lut]
+</code></pre>
+<p>&#x5404;&#x5217;&#x542B;&#x4E49;&#xFF1A;</p>
+<table data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal"><tbody><tr><td>&#x5217;&#x540D;</td><td>&#x542B;&#x4E49;</td></tr><tr><td>USER</td><td>&#x6240;&#x5C5E;&#x7528;&#x6237;</td></tr><tr><td>PID</td><td>&#x8FDB;&#x7A0B; ID</td></tr><tr><td>PPID</td><td>&#x7236;&#x8FDB;&#x7A0B; ID</td></tr><tr><td>NAME</td><td>&#x8FDB;&#x7A0B;&#x540D;</td></tr></tbody></table>
+
+<p>&#x67E5;&#x770B;&#x5B9E;&#x65F6;&#x8D44;&#x6E90;&#x5360;&#x7528;&#x60C5;&#x51B5;</p>
+<pre><code class="lang-text">adb shell top
+</code></pre>
+<p>&#x8F93;&#x51FA;&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">Tasks: 938 total,   1 running, 937 sleeping,   0 stopped,   0 zombie
+  Mem:      7.4G total,      7.0G used,      380M free,      8.1M buffers
+ Swap:      4.0G total,      2.8G used,      1.1G free,      2.6G cached
+800%cpu  13%user   0%nice  16%sys 763%idle   0%iow   6%irq   2%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+ 1612 system       18  -2  15G 451M 257M S  7.0   5.9 1682:20.6 system_server
+  787 system       -2   0 3.2G  22M  12M S  5.0   0.2 2966:24.2 surfaceflinger
+  514 u0_a139      20   0 3.2G 196M 192M S  4.6   2.5   7:17.01 com.UCMobile
+16810 shell        20   0 4.3G  29M  29M S  4.3   0.3 492:30.40 apkagent.cli
+ 1098 system       20   0  87M 1.7M 1.3M S  3.6   0.0 237:31.60 vendor.huawei.h+
+ 7514 shell        20   0  30M 4.7M 3.3M R  2.6   0.0   0:00.14 top
+ 7356 u0_a157      20   0 7.3G 164M 151M S  2.6   2.1  48:54.08 com.sohu.inputm+
+ 3243 system       20   0 6.9G 130M  94M S  1.6   1.7 105:44.14 com.huawei.HwOP+
+ 2844 u0_a139      20   0 2.0G  99M  86M S  1.0   1.2   0:04.83 com.UCMobile:Do+
+ 2486 system       20   0 6.5G 129M 101M S  1.0   1.6  58:59.61 com.huawei.syst+
+ 5023 root         20   0    0    0    0 I  0.6   0.0   0:03.81 [kworker/u16:4]
+ 1059 root         20   0    0    0    0 I  0.6   0.0   0:06.91 [kworker/u16:1]
+ 3547 u0_a139      20   0 2.0G 114M  96M S  0.6   1.4   0:11.31 com.UCMobile:ch+
+ 2917 u0_a139      20   0 2.1G 113M  93M S  0.6   1.4   4:00.37 com.UCMobile:Me+
+ 2771 system       20   0 6.3G 110M  87M S  0.6   1.4 118:19.66 com.huawei.iawa+
+ 1567 root         -2   0    0    0    0 S  0.6   0.0 227:06.46 [hisi_hcc]
+  692 root         20   0 2.6G 4.7M 2.9M S  0.6   0.0  28:35.16 netd
+ 6558 root         20   0    0    0    0 I  0.3   0.0   0:00.06 [kworker/5:3]
+25705 u0_a365      20   0 2.4G 205M 133M S  0.3   2.6   1:51.42 com.lite.lanxin
+24441 u0_a152      30  10 8.2G 245M 183M S  0.3   3.2   1:31.13 com.tencent.mob+
+ ...
+</code></pre>
+<p>&#x5404;&#x5217;&#x542B;&#x4E49;&#xFF1A;</p>
+<table data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal"><tbody><tr><td>&#x5217;&#x540D;</td><td>&#x542B;&#x4E49;</td></tr><tr><td>PID</td><td>&#x8FDB;&#x7A0B; ID</td></tr><tr><td>PR</td><td>&#x4F18;&#x5148;&#x7EA7;</td></tr><tr><td>CPU%</td><td>&#x5F53;&#x524D;&#x77AC;&#x95F4;&#x5360;&#x7528; CPU &#x767E;&#x5206;&#x6BD4;</td></tr><tr><td>S</td><td>&#x8FDB;&#x7A0B;&#x72B6;&#x6001;&#xFF08;R=&#x8FD0;&#x884C;&#xFF0C;S=&#x7761;&#x7720;&#xFF0C;T=&#x8DDF;&#x8E2A;/&#x505C;&#x6B62;&#xFF0C;Z=&#x50F5;&#x5C38;&#x8FDB;&#x7A0B;&#xFF09;</td></tr><tr><td>#THR</td><td>&#x7EBF;&#x7A0B;&#x6570;</td></tr><tr><td>VSS</td><td>Virtual Set Size &#x865A;&#x62DF;&#x8017;&#x7528;&#x5185;&#x5B58;&#xFF08;&#x5305;&#x542B;&#x5171;&#x4EAB;&#x5E93;&#x5360;&#x7528;&#x7684;&#x5185;&#x5B58;)</td></tr><tr><td>RSS</td><td>Resident Set Size &#x5B9E;&#x9645;&#x4F7F;&#x7528;&#x7269;&#x7406;&#x5185;&#x5B58;&#xFF08;&#x5305;&#x542B;&#x5171;&#x4EAB;&#x5E93;&#x5360;&#x7528;&#x7684;&#x5185;&#x5B58;&#xFF09;</td></tr><tr><td>PCY</td><td>&#x8C03;&#x5EA6;&#x7B56;&#x7565;&#x4F18;&#x5148;&#x7EA7;&#xFF0C;SP_BACKGROUND/SPFOREGROUND</td></tr><tr><td>UID&#x200D;</td><td>&#x8FDB;&#x7A0B;&#x6240;&#x6709;&#x8005;&#x7684;&#x7528;&#x6237; ID &#x200D;</td></tr><tr><td>NAME</td><td>&#x8FDB;&#x7A0B;&#x540D;</td></tr></tbody></table>
+
+<p>|</p>
+<p>`top` &#x547D;&#x4EE4;&#x8FD8;&#x652F;&#x6301;&#x4E00;&#x4E9B;&#x547D;&#x4EE4;&#x884C;&#x53C2;&#x6570;&#xFF0C;&#x8BE6;&#x7EC6;&#x7528;&#x6CD5;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-text">Usage: top [ -m max_procs ] [ -n iterations ] [ -d delay ] [ -s sort_column ] [ -t ] [ -h ]
+    -m num  &#x6700;&#x591A;&#x663E;&#x793A;&#x591A;&#x5C11;&#x4E2A;&#x8FDB;&#x7A0B;
+    -n num  &#x5237;&#x65B0;&#x591A;&#x5C11;&#x6B21;&#x540E;&#x9000;&#x51FA;
+    -d num  &#x5237;&#x65B0;&#x65F6;&#x95F4;&#x95F4;&#x9694;&#xFF08;&#x5355;&#x4F4D;&#x79D2;&#xFF0C;&#x9ED8;&#x8BA4;&#x503C; 5&#xFF09;
+    -s col  &#x6309;&#x67D0;&#x5217;&#x6392;&#x5E8F;&#xFF08;&#x53EF;&#x7528; col &#x503C;&#xFF1A;cpu, vss, rss, thr&#xFF09;
+    -t      &#x663E;&#x793A;&#x7EBF;&#x7A0B;&#x4FE1;&#x606F;
+    -h      &#x663E;&#x793A;&#x5E2E;&#x52A9;&#x6587;&#x6863;
+</code></pre>
+<p>&#x67E5;&#x770B;&#x8FDB;&#x7A0B; UID</p>
+<p>&#x6709;&#x4E24;&#x79CD;&#x65B9;&#x6848;&#xFF1A;</p>
+<p>1. `adb shell dumpsys package \<packagename> | grep userId=`</packagename></p>
+<p>&#x5982;&#xFF1A;</p>
+<pre><code class="lang-text">$ adb shell dumpsys package org.mazhuang.guanggoo | grep userId=
+      userId=10394
+</code></pre>
+<p>2. &#x901A;&#x8FC7; ps &#x547D;&#x4EE4;&#x627E;&#x5230;&#x5BF9;&#x5E94;&#x8FDB;&#x7A0B;&#x7684; pid &#x4E4B;&#x540E; `adb shell cat /proc/\<pid>/status | grep Uid`</pid></p>
+<p>&#x5982;&#xFF1A;</p>
+<pre><code class="lang-text">$ adb shell
+   gemini:/ $ ps | grep org.mazhuang.guanggoo
+   u0_a394   28635 770   1795812 78736 SyS_epoll_ 0000000000 S org.mazhuang.guanggoo
+   gemini:/ $ cat /proc/28635/status | grep Uid
+   Uid:    10394   10394   10394   10394
+   gemini:/ $
+</code></pre>
+<p>&#x5176;&#x5B83;</p>
+<p>&#x5982;&#x4E0B;&#x662F;&#x5176;&#x5B83;&#x5E38;&#x7528;&#x547D;&#x4EE4;&#x7684;&#x7B80;&#x5355;&#x63CF;&#x8FF0;&#xFF0C;&#x524D;&#x6587;&#x5DF2;&#x7ECF;&#x4E13;&#x95E8;&#x8BB2;&#x8FC7;&#x7684;&#x547D;&#x4EE4;&#x4E0D;&#x518D;&#x989D;&#x5916;&#x8BF4;&#x660E;&#xFF1A;</p>
+<table data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal"><tbody><tr><td>&#x547D;&#x4EE4;</td><td>&#x529F;&#x80FD;</td></tr><tr><td>cat</td><td>&#x663E;&#x793A;&#x6587;&#x4EF6;&#x5185;&#x5BB9;</td></tr><tr><td>cd</td><td>&#x5207;&#x6362;&#x76EE;&#x5F55;</td></tr><tr><td>chmod</td><td>&#x6539;&#x53D8;&#x6587;&#x4EF6;&#x7684;&#x5B58;&#x53D6;&#x6A21;&#x5F0F;/&#x8BBF;&#x95EE;&#x6743;</td></tr><tr><td>df</td><td>&#x67E5;&#x770B;&#x78C1;&#x76D8;&#x7A7A;&#x95F4;&#x4F7F;&#x7528;&#x60C5;&#x51B5;</td></tr><tr><td>grep</td><td>&#x8FC7;&#x6EE4;&#x8F93;&#x51FA;</td></tr><tr><td>kill</td><td>&#x6740;&#x6B7B;&#x6307;&#x5B9A; PID &#x7684;&#x8FDB;&#x7A0B;</td></tr><tr><td>ls</td><td>&#x5217;&#x4E3E;&#x76EE;&#x5F55;&#x5185;&#x5BB9;</td></tr><tr><td>mount</td><td>&#x6302;&#x8F7D;&#x76EE;&#x5F55;&#x7684;&#x67E5;&#x770B;&#x548C;&#x7BA1;&#x7406;</td></tr><tr><td>mv &#x200D;</td><td>&#x67E5;&#x770B;&#x6B63;&#x5728;&#x8FD0;&#x884C;&#x7684;&#x8FDB;&#x7A0B;&#x200D;</td></tr><tr><td>ps</td><td>&#x67E5;&#x770B;&#x6B63;&#x5728;&#x8FD0;&#x884C;&#x7684;&#x8FDB;&#x7A0B;</td></tr><tr><td>rm</td><td>&#x5220;&#x9664;&#x6587;&#x4EF6;</td></tr><tr><td>top</td><td>&#x67E5;&#x770B;&#x8FDB;&#x7A0B;&#x7684;&#x8D44;&#x6E90;&#x5360;&#x7528;&#x60C5;&#x51B5;</td></tr></tbody></table>
+
+<p><strong>&#x5E38;&#x89C1;&#x95EE;&#x9898;</strong></p>
+<p>&#x542F;&#x52A8; adb server &#x5931;&#x8D25;</p>
+<p>**&#x51FA;&#x9519;&#x63D0;&#x793A;**</p>
+<pre><code class="lang-text">error: protocol fault (couldn&apos;t read status): No error
+</code></pre>
+<p>**&#x53EF;&#x80FD;&#x539F;&#x56E0;**</p>
+<p>adb server &#x8FDB;&#x7A0B;&#x60F3;&#x4F7F;&#x7528;&#x7684; 5037 &#x7AEF;&#x53E3;&#x88AB;&#x5360;&#x7528;&#x3002;</p>
+<p>**&#x89E3;&#x51B3;&#x65B9;&#x6848;**</p>
+<p>&#x627E;&#x5230;&#x5360;&#x7528; 5037 &#x7AEF;&#x53E3;&#x7684;&#x8FDB;&#x7A0B;&#xFF0C;&#x7136;&#x540E;&#x7EC8;&#x6B62;&#x5B83;&#x3002;&#x4EE5; Windows &#x4E0B;&#x4E3A;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-text">netstat -ano | findstr LISTENING
+</code></pre>
+<p>TCP 0.0.0.0:5037 0.0.0.0:0 LISTENING 1548</p>
+<p>&#x8FD9;&#x91CC; 1548 &#x5373;&#x4E3A;&#x8FDB;&#x7A0B; ID&#xFF0C;&#x7528;&#x547D;&#x4EE4;&#x7ED3;&#x675F;&#x8BE5;&#x8FDB;&#x7A0B;&#xFF1A;</p>
+<pre><code class="lang-text">taskkill /PID 1548
+</code></pre>
+<p>&#x7136;&#x540E;&#x518D;&#x542F;&#x52A8; adb &#x5C31;&#x6CA1;&#x95EE;&#x9898;&#x4E86;&#x3002;</p>
+<p>com.android.ddmlib.AdbCommandRejectedException</p>
+<p>&#x5728; Android Studio &#x91CC;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x6A21;&#x62DF;&#x5668;&#xFF0C;&#x4F46;&#x662F;&#x7528; adb &#x4E00;&#x76F4;&#x8FDE;&#x63A5;&#x4E0D;&#x4E0A;&#xFF0C;&#x63D0;&#x793A;&#xFF1A;</p>
+<pre><code class="lang-text">com.android.ddmlib.AdbCommandRejectedException: device unauthorized.
+This adb server&apos;s $ADB_VENDOR_KEYS is not set
+Try &apos;adb kill-server&apos; if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+</code></pre>
+<p>&#x5728;&#x624B;&#x673A;&#x4E0A;&#x5B89;&#x88C5;&#x4E00;&#x4E2A;&#x7EC8;&#x7AEF;&#x7136;&#x540E;&#x6267;&#x884C; su &#x63D0;&#x793A;&#x6CA1;&#x6709;&#x8BE5;&#x547D;&#x4EE4;&#xFF0C;&#x8FD9;&#x4E0D;&#x6B63;&#x5E38;&#x3002;</p>
+<p>&#x4E8E;&#x662F;&#x5220;&#x9664;&#x8BE5;&#x6A21;&#x62DF;&#x5668;&#x540E;&#x91CD;&#x65B0;&#x4E0B;&#x8F7D;&#x5B89;&#x88C5;&#x4E00;&#x6B21;&#xFF0C;&#x8FD9;&#x6B21;&#x5C31;&#x6B63;&#x5E38;&#x4E86;&#x3002;</p>
+<footer class="page-footer"><span class="copyright">&#xA9; RaptorZhang  all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x4E0A;&#x6B21;&#x4FEE;&#x8BA2;:
+2023-03-26 21:33:05
+</span></footer> 
+          </section>
+          
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+ 
+          <div class="book-footer">
+             
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+
+     
+    <a
+      href="./"
+      class="
+        navigation navigation-prev
+        navigation-unique
+      "
+      aria-label="Previous page: 安卓"
+    >
+      <i class="fa fa-angle-left"></i>
+    </a>
+       
+  </div>
+  <script>
+    function showModal() {
+      document.getElementsByClassName("mask")[0].style.display = "block";
+      document.getElementsByClassName("donate-modal")[0].style.display =
+        "block";
+    }
+    // 切换赞赏码
+    function showDonateImg(num) {
+      let alipay = "";
+      let wxpay = ""
+      if(num){
+        wxpay = "hidden"
+      }else{
+        alipay = "hidden"
+      }
+      document.getElementById("wxpay-code").hidden = wxpay;
+      document.getElementById("alipay-code").hidden = alipay;
+      document.getElementsByName("pay-way")[num].checked = "checked";
+    }
+
+    // 关闭赞赏框
+    function closeDonateModal() {
+      document.getElementsByClassName("mask")[0].style.display = "none";
+      document.getElementsByClassName("donate-modal")[0].style.display = "none";
+    }
+
+    var gitbook = gitbook || [];
+    gitbook.push(function () {
+      gitbook.page.hasChanged({"page":{"title":"ADB","level":"1.1.5.1","depth":3,"previous":{"title":"安卓","level":"1.1.5","depth":2,"path":"android/index.md","ref":"android/index.md","articles":[{"title":"ADB","level":"1.1.5.1","depth":3,"path":"android/abb.md","ref":"android/abb.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","code","back-to-top-button","expandable-chapters","tbfed-pagefooter","-sharing","sharing-plus","mermaid-gb3","theme-lou"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy RaptorZhang ","modify_label":"上次修订:","modify_format":"YYYY-MM-DD HH:mm:ss"},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true},"theme-lou":{"hide-elements":[".summary .gitbook-link",".summary .divider"],"color":"#42b983","book-anchor-title":"Search In the Article","copyright":{"author":"raptorzhang@gmail.com"},"forbidCopy":true,"logo":"./images/logo.png","book-summary-title":"目录","search-placeholder":"输入关键字","favicon":"./favicon.ico"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{},"back-to-top-button":{},"sharing":{"facebook":true,"google":true,"qq":true,"twitter":true,"weibo":true,"all":["facebook","google","twitter","weibo","instapaper","linkedin","qq","whatsapp"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"RaptorZhang","lang":"zh-cn","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{"themeLou":{"footer":{}}},"title":"学习笔记","links":{},"gitbook":"*","description":"张磊的学习笔记,主要书学习上的一些记录的东西"},"file":{"path":"android/abb.md","mtime":"2023-03-26T13:33:05.571Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-03-27T18:57:49.084Z"},"basePath":"..","book":{"language":""}});
+    });
+  </script>
+</div>
+
+        
+    
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-lou/lou.js"></script>
+        
+    
+
+    <script src="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
+
+    </body>
+</html>
+
